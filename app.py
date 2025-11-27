@@ -3,8 +3,10 @@ import json
 from dotenv import load_dotenv
 from groq import Groq
 from flask import Flask, render_template, request, jsonify
+from flask_cors import CORS
 from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
+from datetime import datetime
 
 # ----------------------------
 # Load Environment Variables
@@ -12,23 +14,26 @@ from langchain_huggingface import HuggingFaceEmbeddings
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 if not GROQ_API_KEY:
-    raise ValueError("GROQ_API_KEY not found in .env file.")
+    raise ValueError("❌ GROQ_API_KEY not found in .env file.")
+
+print("✅ GROQ_API_KEY loaded successfully")
 
 # ----------------------------
 # Load Product Data
 # ----------------------------
 PRODUCT_JSON_PATH = "product_files/product_catalog.json"
 if not os.path.exists(PRODUCT_JSON_PATH):
-    raise FileNotFoundError(f"{PRODUCT_JSON_PATH} not found.")
+    raise FileNotFoundError(f"❌ {PRODUCT_JSON_PATH} not found.")
 
 with open(PRODUCT_JSON_PATH, "r", encoding="utf-8") as f:
     try:
         products = json.load(f).get("products", [])
+        print(f"✅ Loaded {len(products)} products from catalog")
     except json.JSONDecodeError:
-        raise ValueError(f"Invalid JSON format in {PRODUCT_JSON_PATH}")
+        raise ValueError(f"❌ Invalid JSON format in {PRODUCT_JSON_PATH}")
 
 if not products:
-    raise ValueError("No products found in JSON file.")
+    raise ValueError("❌ No products found in JSON file.")
 
 # ----------------------------
 # Flatten Product Data for Vector Search
@@ -39,50 +44,67 @@ for p in products:
     description = p.get("description", "No description available.")
     docs.append(f"{name}: {description}")
 
-    # Flatten typesOfCampaigns
     types_of_campaigns = p.get("typesOfCampaigns")
     if isinstance(types_of_campaigns, dict):
         for campaign_type, campaign_info in types_of_campaigns.items():
             docs.append(f"{campaign_type}: {campaign_info.get('description', '')} - Ideal For: {campaign_info.get('idealFor','')}")
 
-    # Flatten benefits
     benefits = p.get("benefits")
     if isinstance(benefits, dict):
         for key, value in benefits.items():
-            docs.append(f"{key}: {value}")
+            docs.append(f"Benefit - {key}: {value}")
 
-    # Flatten whyChooseUs
     why_choose_us = p.get("whyChooseUs")
     if isinstance(why_choose_us, dict):
         for key, value in why_choose_us.items():
-            docs.append(f"{key}: {value}")
+            docs.append(f"Why Choose Us - {key}: {value}")
 
-    # Flatten FAQs
     faqs = p.get("faqs")
     if isinstance(faqs, list):
         for faq in faqs:
             question = faq.get("question", "")
             answer = faq.get("answer", "")
             if question and answer:
-                docs.append(f"Q: {question} A: {answer}")
+                docs.append(f"FAQ - Q: {question} A: {answer}")
 
-    # Flatten contact info
     contact = p.get("contact")
     if isinstance(contact, dict):
-        for key in ["phone", "email", "title", "subtitle", "description", "tagline", "about"]:
-            if key in contact:
-                docs.append(f"Contact {key.capitalize()}: {contact[key]}")
+        if "phone" in contact:
+            docs.append(f"Contact Phone: {contact['phone']}")
+        if "email" in contact:
+            docs.append(f"Contact Email: {contact['email']}")
+        if "title" in contact:
+            docs.append(f"Contact Title: {contact['title']}")
+        if "description" in contact:
+            docs.append(f"About Us: {contact['description']}")
+        
         offices = contact.get("offices")
         if isinstance(offices, dict):
             for country, addr in offices.items():
                 docs.append(f"Office in {country.capitalize()}: {addr}")
 
+    # Add service-specific sections
+    seo_services = p.get("seoServices")
+    if isinstance(seo_services, dict):
+        for service, info in seo_services.items():
+            docs.append(f"SEO Service - {service}: {info.get('description', '')}")
+
+    seo_process = p.get("seoProcess")
+    if isinstance(seo_process, list):
+        for step in seo_process:
+            docs.append(f"Process Step - {step.get('step', '')}: {step.get('description', '')}")
+
+print(f"✅ Created {len(docs)} document chunks for vector search")
+
 # ----------------------------
 # Create Embeddings + VectorStore
 # ----------------------------
+print("⏳ Loading embeddings model...")
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+print("⏳ Creating vector store...")
 vectorstore = Chroma.from_texts(docs, embeddings)
 retriever = vectorstore.as_retriever()
+print("✅ Vector store created successfully")
 
 # ----------------------------
 # Initialize Groq Client
@@ -90,88 +112,178 @@ retriever = vectorstore.as_retriever()
 client = Groq(api_key=GROQ_API_KEY)
 
 # ----------------------------
-# Flask App
+# Flask App with CORS
 # ----------------------------
 app = Flask(__name__)
 
+# Enable CORS for all routes
+CORS(app, resources={r"/*": {"origins": "*"}})
+
+# ----------------------------
+# Casual Responses Dictionary
+# ----------------------------
+CASUAL_RESPONSES = {
+    "hi": "Hello! 👋 Welcome to Emerging Software. How can I assist you today?",
+    "hello": "Hi there! 😊 How can I help you with our services?",
+    "hey": "Hey! 👋 What would you like to know?",
+    "how are you": "I'm doing great! 😊 Ready to help you succeed. What can I assist with?",
+    "i'm fine": "Great to hear! 😊 Now, how can I help your business?",
+    "thanks": "You're welcome! 🙌 Feel free to ask anything else.",
+    "thank you": "Happy to help! 😊",
+    "bye": "Goodbye! 👋 Have a great day!",
+    "ok": "Okay! Let me know if you need more info.",
+    "yes": "Great! What else would you like to know?",
+    "no": "No problem! Feel free to ask anything else.",
+}
+
+# ----------------------------
+# Routes
+# ----------------------------
+
 @app.route("/")
 def index():
+    """Serve the main chat interface"""
     return render_template("index.html")
 
-@app.route("/ask", methods=["POST"])
+@app.route("/health", methods=["GET"])
+def health():
+    """Health check endpoint"""
+    return jsonify({
+        "status": "healthy",
+        "timestamp": datetime.now().isoformat(),
+        "products_loaded": len(products)
+    }), 200
+
+@app.route("/ask", methods=["POST", "OPTIONS"])
 def ask():
-    user_query = request.json.get("query", "").strip()
-    if not user_query:
-        return jsonify({"answer": "Please type a question."})
+    """
+    Main API Endpoint for chatbot
+    
+    Request: {"query": "user message", "conversation_id": "optional"}
+    Response: {"answer": "bot response"}
+    """
+    
+    # Handle preflight requests
+    if request.method == "OPTIONS":
+        return jsonify({"status": "ok"}), 200
+    
+    try:
+        user_query = request.json.get("query", "").strip()
+        
+        if not user_query:
+            return jsonify({"answer": "Please type a question to get started!"}), 400
 
-    lower_query = user_query.lower().strip()
+        lower_query = user_query.lower().strip()
 
-    # ----------------------------
-    # Casual conversation responses (smart)
-    # ----------------------------
-    casual_responses = {
-        "hi": "Hello! 👋 How can I assist you today?",
-        "hello": "Hi there! 😊 What can I help you with?",
-        "hey": "Hey! How can I assist you?",
-        "how are you": "I'm doing great! Thanks for asking 😊 How can I help you today?",
-        "i'm fine": "Great to hear that! ❤️ How can I assist further?",
-        "thank you": "You're welcome! 😊",
-        "thanks": "Happy to help! 🙌",
-        "bye": "Goodbye! 👋 Have a great day!",
-        "ok": "Okay! Let me know if you need help.",
-        "lead done": "Perfect! Your lead is marked as done. 🟢",
-    }
+        # ----------------------------
+        # Check for casual conversation
+        # ----------------------------
+        for key, resp in CASUAL_RESPONSES.items():
+            if lower_query == key or lower_query.startswith(key):
+                return jsonify({"answer": resp}), 200
 
-    greetings = ["hi", "hello", "hey"]
-    # Detect simple greeting only if short query
-    if any(lower_query.startswith(g) and len(lower_query.split()) <= 3 for g in greetings):
-        for g in greetings:
-            if lower_query.startswith(g):
-                return jsonify({"answer": casual_responses[g]})
-    # Direct exact match for other casual phrases
-    for key, resp in casual_responses.items():
-        if lower_query == key:
-            return jsonify({"answer": resp})
+        # ----------------------------
+        # Retrieve relevant context from product docs
+        # ----------------------------
+        try:
+            context_docs = vectorstore.similarity_search(user_query, k=5)
+            context = "\n".join([doc.page_content for doc in context_docs])
+            
+            if not context.strip():
+                context = "No specific information found."
+        except Exception as e:
+            print(f"❌ Error in vector search: {str(e)}")
+            context = "Unable to retrieve context."
 
-    # ----------------------------
-    # Retrieve relevant context from product docs
-    # ----------------------------
-    context_docs = vectorstore.similarity_search(user_query, k=5)
-    context = "\n".join([doc.page_content for doc in context_docs])
+        # ----------------------------
+        # Prepare prompt for Groq AI
+        # ----------------------------
+        prompt = f"""You are a helpful AI assistant for Emerging Software, a leading digital marketing agency in the Middle East.
 
-    # ----------------------------
-    # Prepare prompt for Groq AI
-    # ----------------------------
-    prompt = f"""
-You are a helpful AI assistant. You must ONLY answer using the provided product data.
+COMPANY PROFILE:
+- Provides services: Email Marketing, Digital Marketing, SEO, Content Writing, PPC, Social Media, Affiliate Marketing, Website Development & Design
+- Focus: Middle Eastern market
+- Locations: Pakistan, USA, Qatar
+- Contact: director@emergingssoftware.com | +1 830 631 0316
 
-Context:
+PRODUCT CONTEXT:
 {context}
 
-User Question: {user_query}
+USER QUESTION: {user_query}
 
-Instructions:
-- Answer in 4–5 complete sentences.
-- Provide examples if relevant.
-- Write in a friendly, professional tone.
-- If the question is outside this context, reply: "I only provide information about the listed products and services."
+INSTRUCTIONS:
+1. Answer ONLY using the provided product data and company information
+2. Be friendly, professional, and focused on solutions
+3. Keep responses to 3-5 sentences unless more detail is needed
+4. Include relevant contact info when appropriate
+5. Use emojis sparingly for emphasis
+6. If the question is outside our scope, politely redirect to our services
+7. Never make up services or information not in the context
+8. Encourage specific service inquiries or contact us for consultations
 
-Answer:
-"""
+ANSWER:"""
 
-    # ----------------------------
-    # Call Groq API
-    # ----------------------------
-    try:
+        # ----------------------------
+        # Call Groq API
+        # ----------------------------
         response = client.chat.completions.create(
             model="llama-3.3-70b-versatile",
-            messages=[{"role": "user", "content": prompt}]
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.7,
+            max_tokens=500
         )
+        
         answer = response.choices[0].message.content.strip()
-    except Exception as e:
-        answer = f"Error retrieving response: {e}"
+        
+        print(f"✅ Query: {user_query[:50]}... | Response length: {len(answer)}")
+        
+        return jsonify({"answer": answer}), 200
 
-    return jsonify({"answer": answer})
+    except Exception as e:
+        print(f"❌ Error in /ask endpoint: {str(e)}")
+        return jsonify({
+            "answer": "Sorry, I encountered an error processing your request. Please try again or contact us directly at director@emergingssoftware.com"
+        }), 500
+
+# ----------------------------
+# Error Handlers
+# ----------------------------
+
+@app.errorhandler(404)
+def not_found(error):
+    return jsonify({"error": "Endpoint not found"}), 404
+
+@app.errorhandler(500)
+def internal_error(error):
+    return jsonify({"error": "Internal server error"}), 500
+
+@app.before_request
+def log_request():
+    """Log incoming requests"""
+    if request.endpoint not in ['static']:
+        print(f"📨 {request.method} {request.path} from {request.remote_addr}")
+
+# ----------------------------
+# Main Execution
+# ----------------------------
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    print("\n" + "="*50)
+    print("🚀 EMERGING SOFTWARE CHATBOT SERVER")
+    print("="*50)
+    print(f"📦 Products loaded: {len(products)}")
+    print(f"📄 Document chunks: {len(docs)}")
+    print("🔐 CORS enabled")
+    print("="*50 + "\n")
+    
+    # Development mode
+    app.run(
+        debug=True,
+        host="0.0.0.0",
+        port=5000,
+        use_reloader=True
+    )
+    
+    # For production, use:
+    # from waitress import serve
+    # serve(app, host="0.0.0.0", port=5000)

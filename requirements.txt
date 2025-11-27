@@ -1,11 +1,10 @@
 langchain
 chromadb
 sentence-transformers
-gpt4all
 flask
 python-dotenv
 groq
 langchain-huggingface
 langchain-community
-chromadb
+
 

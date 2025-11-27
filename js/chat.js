@@ -49,3 +49,51 @@ function sendQuery() {
 queryInput.addEventListener("keypress", e => {
     if (e.key === "Enter") sendQuery();
 });
+let isListening = false;
+let recognitionObj = null;
+
+document.getElementById("micBtn").addEventListener("click", () => {
+    if (!isListening) {
+        startMic();
+    } else {
+        stopMic();
+    }
+});
+
+function startMic() {
+    if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
+        alert("Your browser doesn't support voice input.");
+        return;
+    }
+
+    recognitionObj = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+    recognitionObj.lang = 'en-US';
+    recognitionObj.interimResults = false;
+    recognitionObj.maxAlternatives = 1;
+
+    recognitionObj.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        queryInput.value = transcript;
+        sendQuery();
+    };
+
+    recognitionObj.onerror = (event) => {
+        console.error("Speech recognition error:", event.error);
+    };
+
+    recognitionObj.onend = () => {
+        stopMic();
+    };
+
+    recognitionObj.start();
+
+    isListening = true;
+    document.getElementById("micBtn").classList.add("listening");
+}
+
+function stopMic() {
+    if (recognitionObj) recognitionObj.stop();
+    isListening = false;
+    document.getElementById("micBtn").classList.remove("listening");
+}
+
