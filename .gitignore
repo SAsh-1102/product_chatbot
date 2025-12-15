@@ -57,3 +57,8 @@ dist/
 # Node modules if any
 
 node_modules/
+venv/
+.env
+__pycache__/
+*.pyc
+chroma/

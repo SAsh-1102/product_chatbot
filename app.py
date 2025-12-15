@@ -22,13 +22,19 @@ print("✅ GROQ_API_KEY loaded successfully")
 # Load Product Data
 # ----------------------------
 PRODUCT_JSON_PATH = "product_files/product_catalog.json"
+
 if not os.path.exists(PRODUCT_JSON_PATH):
     raise FileNotFoundError(f"❌ {PRODUCT_JSON_PATH} not found.")
 
 with open(PRODUCT_JSON_PATH, "r", encoding="utf-8") as f:
     try:
-        products = json.load(f).get("products", [])
+        products = json.load(f)
+
+        if not isinstance(products, list):
+            raise ValueError("❌ product_catalog.json must be a LIST of products")
+
         print(f"✅ Loaded {len(products)} products from catalog")
+
     except json.JSONDecodeError:
         raise ValueError(f"❌ Invalid JSON format in {PRODUCT_JSON_PATH}")
 

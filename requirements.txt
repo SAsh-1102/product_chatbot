@@ -1,10 +1,40 @@
-langchain
-chromadb
-sentence-transformers
-flask
-python-dotenv
-groq
-langchain-huggingface
-langchain-community
 
+# Flask & Web
+Flask==3.0.0
+flask-cors==4.0.0
+Werkzeug==3.0.1
 
+# Environment Management
+python-dotenv==1.0.0
+
+# AI & LLM
+groq==0.10.0
+
+# LangChain & Vector Search
+langchain==0.1.14
+langchain-community==0.0.27
+langchain-huggingface==0.0.44
+langchain-core==0.1.33
+
+# Vector Database
+chromadb==0.4.24
+
+# Embeddings
+sentence-transformers==2.2.2
+huggingface-hub==0.20.3
+
+# Supporting Libraries
+numpy==1.24.3
+scipy==1.11.4
+scikit-learn==1.3.2
+requests==2.31.0
+tqdm==4.66.1
+pandas==2.1.3
+
+# Production Server (optional)
+# Uncomment for production
+# waitress==2.1.2
+# gunicorn==21.2.0
+
+# Development Tools (optional)
+# python-dotenv for local development is included above

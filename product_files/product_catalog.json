@@ -1,781 +1,1735 @@
-{
-  "products": [
-    {
-      "contact": {
-    "title": "GET IN TOUCH",
-    "subtitle": "Contact Emerging Software!",
-    "description": "We are here to help you achieve your digital marketing goals. If you have questions about our services, need help with your current strategy, or want to explore collaboration, we are ready to help.",
-    
-    "phone": "+1 830 631 0316",
-    "email": "director@emergingssoftware.com",
-    
-    "offices": {
-        "pakistan": "NASTP-Technology Park, Office No 206, Shahrah-e-Faisal, Karachi, Pakistan",
-        "usa": "5307 Coneflower Dr, Naperville, IL, 60564",
-        "qatar": "666, 667, Building 43, Street 517, Zone 49, Ras Bufontas Free Zone, Doha, Qatar"
+[
+  {
+    "company": {
+      "name": "Emerging Software",
+      "about": {
+        "en": "Emerging Software is a leading digital marketing and technology solutions provider in the Middle East, helping businesses grow through innovative and data-driven online strategies.",
+        "ar": "شركة Emerging Software هي شركة رائدة في تقديم حلول التسويق الرقمي والتقنيات الحديثة في منطقة الشرق الأوسط، حيث نساعد الشركات على النمو من خلال استراتيجيات مبتكرة تعتمد على البيانات."
+      }
     },
-
-    "formPlaceholders": {
-        "name": "Your name",
-        "email": "Your email",
-        "subject": "Subject",
-        "message": "Your message (optional)"
-    },
-
-    "tagline": "Innovation Meets Excellence In The Digital Domain",
-    "about": "Established with a passion for empowering businesses to thrive online, we've built a reputation for delivering exceptional solutions that drive results."
-},
-
-      "id": "emailMarketing",
-      "service": "Email Marketing",
-      "description": "Our email marketing management services are designed to turn your subscriber list into an ATM that never runs out of cash. We create campaigns that engage, convert, and retain customers effectively.",
-      "painPoint": "Many businesses fail in email marketing because they try without expertise, sending generic emails and getting poor results.",
-      "typesOfCampaigns": {
-        "welcomeSeries": {
-          "description": "First impressions matter. Our welcome emails roll out the red carpet for new subscribers.",
-          "idealFor": "Every business with an email list."
+    "contact": {
+      "headline": {
+        "en": "Contact Emerging Software!",
+        "ar": "اتصل بشركة Emerging Software!"
+      },
+      "description": {
+        "en": "We are here to help you achieve your digital marketing goals. If you have questions about our services, need help with your current digital strategy, or want to explore how we can collaborate, our team is ready to assist you.",
+        "ar": "نحن هنا لمساعدتك في تحقيق أهدافك في التسويق الرقمي. إذا كان لديك أي أسئلة حول خدماتنا أو تحتاج إلى دعم في استراتيجيتك الرقمية الحالية أو ترغب في التعاون معنا، فإن فريقنا على استعداد لمساعدتك."
+      },
+      "phone": "+1 830 631 0316",
+      "email": "director@emergingssoftware.com",
+      "locations": {
+        "Pakistan": "NASTP-Technology Park, Office No 206, Shahrah-e-Faisal, Karachi",
+        "USA": "5307 Coneflower Dr, Naperville, IL, 60564",
+        "Qatar": "666-667, Building 43, Street 517, Zone 49, Ras Bufontas Free Zone, Doha, Qatar"
+      },
+      "formPlaceholders": {
+        "name": {
+          "en": "Your name",
+          "ar": "اسمك"
         },
-        "leadMagnetEmails": {
-          "description": "We create irresistible offers that capture your prospects' attention.",
-          "idealFor": "B2B companies, consultants, and service providers."
+        "email": {
+          "en": "Your email",
+          "ar": "بريدك الإلكتروني"
         },
-        "reEngagementCampaigns": {
-          "description": "We win back inactive subscribers quickly and efficiently.",
-          "idealFor": "Any business with a list older than a week."
+        "subject": {
+          "en": "Subject",
+          "ar": "الموضوع"
         },
-        "loyaltyEmails": {
-          "description": "We make your customers feel valued, encouraging repeat business.",
-          "idealFor": "Businesses looking to boost customer lifetime value."
-        },
-        "promotionalEmails": {
-          "description": "Persuasive emails that drive sales and promote your products effectively.",
-          "idealFor": "E-commerce businesses and anyone with products or services to sell."
-        },
-        "newsletters": {
-          "description": "Position yourself as an industry authority and build trust with your audience.",
-          "idealFor": "Thought leaders, consultants, and B2B companies."
+        "message": {
+          "en": "Your message (optional)",
+          "ar": "رسالتك (اختياري)"
         }
       },
-      "benefits": {
-        "listGrowth": "We use advanced lead generation techniques to rapidly grow your subscriber list.",
-        "openRates": "Our subject lines are crafted to maximize open rates.",
-        "clickThroughRates": "Our content encourages subscribers to click through to your offers.",
-        "repeatBuyers": "We convert subscribers into loyal, repeat customers.",
-        "roi": "Expect high ROI, potentially 10x, 20x, or even 50x your investment."
+      "tagline": {
+        "en": "Innovation Meets Excellence In The Digital Domain",
+        "ar": "الابتكار يلتقي بالتميز في المجال الرقمي"
       },
-      "whyChooseUs": {
-        "localExpertise": "We understand the Middle East market and business culture deeply.",
-        "speed": "We move fast, launching campaigns quickly and efficiently.",
-        "obsession": "Our team is dedicated and highly experienced in email marketing.",
-        "resultsFocused": "We focus on revenue generation, not vanity metrics.",
-        "multiLanguage": "We create campaigns in Arabic, English, and more, resonating with your audience."
-      },
-      "faqs": [
-        {
-          "question": "How much does this cost?",
-          "answer": "Our services are not cheap, but they are highly valuable and designed to make you substantial revenue."
-        },
-        {
-          "question": "How fast will I see results?",
-          "answer": "Some clients see results from the first campaign, and results grow over time as the campaigns continue."
-        },
-        {
-          "question": "Do you guarantee results?",
-          "answer": "Yes, we guarantee results. If we don't make you more money than you spend with us, we don't deserve your business."
-        },
-        {
-          "question": "Will email marketing services work for my business?",
-          "answer": "Yes, we have successfully worked with a variety of industries in the Middle East, including E-commerce, B2B, services, and product-based businesses."
-        },
-        {
-          "question": "How do you measure success?",
-          "answer": "We measure success primarily in revenue generated. Metrics like open rates and click-through rates are secondary."
-        }
+      "about": {
+        "en": "Established with a passion for empowering businesses to thrive online, we've built a reputation for delivering exceptional solutions that drive results.",
+        "ar": "تأسست الشركة بشغف لتمكين الشركات من الازدهار عبر الإنترنت، وقد بنينا سمعة لتقديم حلول استثنائية تحقق النتائج."
+      }
+    },
+    "mission": {
+      "en": "Our mission is to empower businesses to thrive in the digital age by delivering high-quality digital marketing services that improve visibility, engagement, and conversions.",
+      "ar": "مهمتنا هي تمكين الشركات من النجاح في العصر الرقمي من خلال تقديم خدمات تسويق رقمي عالية الجودة تعمل على زيادة الظهور والتفاعل والتحويلات."
+    },
+    "why_choose_us": {
+      "en": [
+        "Customized digital marketing strategies tailored to business goals",
+        "Deep understanding of the Middle East market and audience culture",
+        "Measurable and result-driven digital growth",
+        "Innovation, transparency, and continuous improvement"
+      ],
+      "ar": [
+        "استراتيجيات تسويق رقمي مخصصة بما يتوافق مع أهداف العمل",
+        "فهم عميق لسوق الشرق الأوسط وثقافة الجمهور",
+        "نمو رقمي قائم على النتائج وقابل للقياس",
+        "الابتكار والشفافية والتحسين المستمر"
       ]
     },
-    {
-      "id": "digitalMarketing",
-      "service": "Digital Marketing",
-      "description": "Emerging Software provides cutting-edge digital marketing services in the Middle East, transforming struggling businesses into online powerhouses. We focus on real results with no fluff or empty promises.",
-      "established": 2019,
-      "marketFocus": "Middle East",
-      "contact": {
-        "namePlaceholder": "Your Name",
-        "emailPlaceholder": "example@email.com",
-        "phonePlaceholder": "Your Contact Number",
-        "messagePlaceholder": "Your Message Here"
+    "services": [
+      {
+        "id": "emailMarketing",
+        "service": {
+          "en": "Email Marketing",
+          "ar": "التسويق عبر البريد الإلكتروني"
+        },
+        "description": {
+          "en": "Our email marketing management services are designed to turn your subscriber list into an ATM that never runs out of cash. We create campaigns that engage, convert, and retain customers effectively.",
+          "ar": "تم تصميم خدمات إدارة التسويق عبر البريد الإلكتروني لدينا لتحويل قائمة المشتركين الخاصة بك إلى مصدر دخل مستمر. نحن ننشئ حملات تشرك العملاء وتحوّلهم وتحتفظ بهم بفعالية."
+        },
+        "painPoint": {
+          "en": "Many businesses fail in email marketing because they try without expertise, sending generic emails and getting poor results.",
+          "ar": "يفشل العديد من الشركات في التسويق عبر البريد الإلكتروني لأنها تحاول دون خبرة، وترسل رسائل عامة وتحصل على نتائج ضعيفة."
+        },
+        "typesOfCampaigns": {
+          "welcomeSeries": {
+            "description": {
+              "en": "First impressions matter. Our welcome emails roll out the red carpet for new subscribers.",
+              "ar": "الانطباعات الأولى مهمة. رسائل البريد الترحيبية لدينا ترحب بالمشتركين الجدد بطريقة مميزة."
+            },
+            "idealFor": {
+              "en": "Every business with an email list.",
+              "ar": "كل الأعمال التي لديها قائمة بريدية."
+            }
+          },
+          "leadMagnetEmails": {
+            "description": {
+              "en": "We create irresistible offers that capture your prospects' attention.",
+              "ar": "ننشئ عروضاً لا يمكن مقاومتها لجذب اهتمام العملاء المحتملين."
+            },
+            "idealFor": {
+              "en": "B2B companies, consultants, and service providers.",
+              "ar": "شركات B2B والاستشاريين ومقدمي الخدمات."
+            }
+          },
+          "reEngagementCampaigns": {
+            "description": {
+              "en": "We win back inactive subscribers quickly and efficiently.",
+              "ar": "نستعيد المشتركين غير النشطين بسرعة وكفاءة."
+            },
+            "idealFor": {
+              "en": "Any business with a list older than a week.",
+              "ar": "أي عمل لديه قائمة عمرها أكثر من أسبوع."
+            }
+          },
+          "loyaltyEmails": {
+            "description": {
+              "en": "We make your customers feel valued, encouraging repeat business.",
+              "ar": "نجعل عملائك يشعرون بالتقدير، مما يشجعهم على تكرار التعامل."
+            },
+            "idealFor": {
+              "en": "Businesses looking to boost customer lifetime value.",
+              "ar": "الشركات التي تسعى لزيادة قيمة العميل مدى الحياة."
+            }
+          },
+          "promotionalEmails": {
+            "description": {
+              "en": "Persuasive emails that drive sales and promote your products effectively.",
+              "ar": "رسائل بريدية مقنعة تزيد المبيعات وتروّج لمنتجاتك بفعالية."
+            },
+            "idealFor": {
+              "en": "E-commerce businesses and anyone with products or services to sell.",
+              "ar": "الأعمال التجارية الإلكترونية وأي شخص لديه منتجات أو خدمات للبيع."
+            }
+          },
+          "newsletters": {
+            "description": {
+              "en": "Position yourself as an industry authority and build trust with your audience.",
+              "ar": "ضع نفسك كخبير في المجال وبناء الثقة مع جمهورك."
+            },
+            "idealFor": {
+              "en": "Thought leaders, consultants, and B2B companies.",
+              "ar": "قادة الفكر والاستشاريين وشركات B2B."
+            }
+          }
+        },
+        "benefits": {
+          "listGrowth": {
+            "en": "We use advanced lead generation techniques to rapidly grow your subscriber list.",
+            "ar": "نستخدم تقنيات متقدمة لتوليد العملاء المحتملين لتنمية قائمة المشتركين بسرعة."
+          },
+          "openRates": {
+            "en": "Our subject lines are crafted to maximize open rates.",
+            "ar": "نصوص عناوين البريد مصممة لزيادة معدلات الفتح."
+          },
+          "clickThroughRates": {
+            "en": "Our content encourages subscribers to click through to your offers.",
+            "ar": "يحفز محتوى البريد المشتركين على النقر للوصول إلى عروضك."
+          },
+          "repeatBuyers": {
+            "en": "We convert subscribers into loyal, repeat customers.",
+            "ar": "نحوّل المشتركين إلى عملاء مخلصين ومتكررين."
+          },
+          "roi": {
+            "en": "Expect high ROI, potentially 10x, 20x, or even 50x your investment.",
+            "ar": "توقع عائد استثماري مرتفع، قد يصل إلى 10x أو 20x أو حتى 50x من استثمارك."
+          }
+        },
+        "whyChooseUs": {
+          "localExpertise": {
+            "en": "We understand the Middle East market and business culture deeply.",
+            "ar": "نفهم سوق الشرق الأوسط وثقافة الأعمال فيه بعمق."
+          },
+          "speed": {
+            "en": "We move fast, launching campaigns quickly and efficiently.",
+            "ar": "نتحرك بسرعة، ونطلق الحملات بكفاءة."
+          },
+          "obsession": {
+            "en": "Our team is dedicated and highly experienced in email marketing.",
+            "ar": "فريقنا مخلص ولديه خبرة عالية في التسويق عبر البريد الإلكتروني."
+          },
+          "resultsFocused": {
+            "en": "We focus on revenue generation, not vanity metrics.",
+            "ar": "نركز على تحقيق الإيرادات، وليس على المقاييس الشكلية."
+          },
+          "multiLanguage": {
+            "en": "We create campaigns in Arabic, English, and more, resonating with your audience.",
+            "ar": "ننشئ حملات باللغة العربية والإنجليزية وأكثر، لتتوافق مع جمهورك."
+          }
+        },
+        "faqs": [
+          {
+            "question": {
+              "en": "How much does this cost?",
+              "ar": "كم تكلفة هذه الخدمة؟"
+            },
+            "answer": {
+              "en": "Our services are not cheap, but they are highly valuable and designed to make you substantial revenue.",
+              "ar": "خدماتنا ليست رخيصة، لكنها ذات قيمة عالية ومصممة لتحقيق إيرادات كبيرة لك."
+            }
+          },
+          {
+            "question": {
+              "en": "How fast will I see results?",
+              "ar": "كم من الوقت سيستغرق لرؤية النتائج؟"
+            },
+            "answer": {
+              "en": "Some clients see results from the first campaign, and results grow over time as the campaigns continue.",
+              "ar": "يرى بعض العملاء النتائج من الحملة الأولى، وتزداد النتائج مع استمرار الحملات."
+            }
+          },
+          {
+            "question": {
+              "en": "Do you guarantee results?",
+              "ar": "هل تضمنون النتائج؟"
+            },
+            "answer": {
+              "en": "Yes, we guarantee results. If we don't make you more money than you spend with us, we don't deserve your business.",
+              "ar": "نعم، نحن نضمن النتائج. إذا لم نحقق لك أرباحاً أكبر من ما تنفقه معنا، فلن نستحق عملك."
+            }
+          },
+          {
+            "question": {
+              "en": "Will email marketing services work for my business?",
+              "ar": "هل ستعمل خدمات التسويق عبر البريد الإلكتروني مع عملي؟"
+            },
+            "answer": {
+              "en": "Yes, we have successfully worked with a variety of industries in the Middle East, including E-commerce, B2B, services, and product-based businesses.",
+              "ar": "نعم، لقد عملنا بنجاح مع مجموعة متنوعة من الصناعات في الشرق الأوسط، بما في ذلك التجارة الإلكترونية وB2B والخدمات والأعمال القائمة على المنتجات."
+            }
+          },
+          {
+            "question": {
+              "en": "How do you measure success?",
+              "ar": "كيف تقيسون النجاح؟"
+            },
+            "answer": {
+              "en": "We measure success primarily in revenue generated. Metrics like open rates and click-through rates are secondary.",
+              "ar": "نقيس النجاح بشكل أساسي من خلال الإيرادات المحققة. المقاييس مثل معدلات الفتح والنقر هي ثانوية."
+            }
+          }
+        ]
       },
-      "callToAction": "Ready to Dominate Your Market with Our Digital Marketing Services?",
-      "serviceApproach": {
-        "overview": "We help businesses stop playing catch-up and start leading in the digital world by providing effective digital marketing strategies.",
-        "keyFocusAreas": [
+      {
+        "id": "digitalMarketing",
+        "service": {
+          "en": "Digital Marketing",
+          "ar": "التسويق الرقمي"
+        },
+        "description": {
+          "en": "Emerging Software provides cutting-edge digital marketing services in the Middle East, transforming struggling businesses into online powerhouses. We focus on real results with no fluff or empty promises.",
+          "ar": "شركة Emerging Software تقدم خدمات التسويق الرقمي المتطورة في الشرق الأوسط، وتحول الأعمال التي تعاني إلى قوى إلكترونية قوية. نحن نركز على النتائج الحقيقية دون أي مبالغات أو وعود فارغة."
+        },
+        "established": 2019,
+        "marketFocus": {
+          "en": "Middle East",
+          "ar": "الشرق الأوسط"
+        },
+        "contact": {
+          "namePlaceholder": {
+            "en": "Your Name",
+            "ar": "اسمك"
+          },
+          "emailPlaceholder": {
+            "en": "example@email.com",
+            "ar": "البريد الإلكتروني"
+          },
+          "phonePlaceholder": {
+            "en": "Your Contact Number",
+            "ar": "رقم الاتصال الخاص بك"
+          },
+          "messagePlaceholder": {
+            "en": "Your Message Here",
+            "ar": "رسالتك هنا"
+          }
+        },
+        "callToAction": {
+          "en": "Ready to Dominate Your Market with Our Digital Marketing Services?",
+          "ar": "هل أنت مستعد للسيطرة على سوقك مع خدمات التسويق الرقمي لدينا؟"
+        },
+        "serviceApproach": {
+          "overview": {
+            "en": "We help businesses stop playing catch-up and start leading in the digital world by providing effective digital marketing strategies.",
+            "ar": "نساعد الشركات على التوقف عن محاولة اللحاق بالركب والبدء في القيادة في العالم الرقمي من خلال تقديم استراتيجيات تسويق رقمي فعّالة."
+          },
+          "keyFocusAreas": [
+            {
+              "name": {
+                "en": "Engage And Grow",
+                "ar": "التفاعل والنمو"
+              },
+              "description": {
+                "en": "Build a loyal online community with our social media management services. We create compelling content, manage your social profiles, and run targeted campaigns that boost brand awareness and encourage interaction.",
+                "ar": "ابنِ مجتمعًا إلكترونيًا مخلصًا من خلال خدمات إدارة وسائل التواصل الاجتماعي لدينا. نقوم بإنشاء محتوى جذاب، وإدارة ملفاتك الشخصية، وتشغيل حملات مستهدفة تزيد من وعي العلامة التجارية وتشجع التفاعل."
+              }
+            },
+            {
+              "name": {
+                "en": "Inform And Inspire",
+                "ar": "إعلام وإلهام"
+              },
+              "description": {
+                "en": "Our content marketing strategies deliver valuable and relevant content that resonates with your audience. From blog posts and articles to infographics and videos, we craft content that informs, engages, and inspires customers to take action.",
+                "ar": "استراتيجيات التسويق بالمحتوى لدينا تقدم محتوى ذا قيمة وملائم يتفاعل مع جمهورك. من المنشورات والمقالات إلى الرسوم البيانية والفيديوهات، نصنع محتوى يعلّم ويشرك ويحفز العملاء على اتخاذ الإجراءات."
+              }
+            },
+            {
+              "name": {
+                "en": "Personalized Outreach",
+                "ar": "التواصل الشخصي"
+              },
+              "description": {
+                "en": "Stay connected with your audience through personalized email marketing campaigns. We design strategies that nurture leads, promote products, and drive conversions, ensuring impactful and relevant messages.",
+                "ar": "ابقَ على تواصل مع جمهورك من خلال حملات التسويق عبر البريد الإلكتروني المخصصة. نصمم استراتيجيات لتغذية العملاء المحتملين، وترويج المنتجات، وزيادة التحويلات، مع ضمان رسائل مؤثرة وملائمة."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "seo",
+        "service": {
+          "en": "Search Engine Optimization",
+          "ar": "تحسين محركات البحث"
+        },
+        "description": {
+          "en": "Emerging Software provides affordable SEO services in the Middle East, focusing on strategies that deliver sustainable results. We dominate SEO by tailoring approaches specifically for the Middle Eastern market.",
+          "ar": "شركة Emerging Software تقدم خدمات تحسين محركات البحث بأسعار معقولة في الشرق الأوسط، مع التركيز على استراتيجيات تحقق نتائج مستدامة. نحن نهيمن على SEO من خلال تخصيص الأساليب خصيصًا لسوق الشرق الأوسط."
+        },
+        "marketFocus": {
+          "en": "Middle East",
+          "ar": "الشرق الأوسط"
+        },
+        "contact": {
+          "namePlaceholder": {
+            "en": "Your Name",
+            "ar": "اسمك"
+          },
+          "emailPlaceholder": {
+            "en": "example@email.com",
+            "ar": "البريد الإلكتروني"
+          },
+          "phonePlaceholder": {
+            "en": "Your Contact Number",
+            "ar": "رقم الاتصال الخاص بك"
+          },
+          "messagePlaceholder": {
+            "en": "Your Message Here",
+            "ar": "رسالتك هنا"
+          }
+        },
+        "valueProposition": {
+          "en": "SEO is the foundation of your online presence. Our services help businesses rank higher in search results, attract more customers, and stay ahead of competition.",
+          "ar": "SEO هو أساس وجودك على الإنترنت. خدماتنا تساعد الشركات على الترتيب أعلى في نتائج البحث، وجذب المزيد من العملاء، والبقاء متقدمين على المنافسة."
+        },
+        "seoServices": {
+          "seoAudit": {
+            "description": {
+              "en": "Comprehensive analysis of your website to uncover strengths and weaknesses.",
+              "ar": "تحليل شامل لموقعك على الويب للكشف عن نقاط القوة والضعف."
+            }
+          },
+          "ecommerceSEO": {
+            "description": {
+              "en": "Optimize online stores to rank higher, improve product pages, category listings, site speed, and mobile responsiveness.",
+              "ar": "تحسين المتاجر الإلكترونية للترتيب أعلى، وتحسين صفحات المنتجات، وتصنيفات الأقسام، وسرعة الموقع، واستجابة الأجهزة المحمولة."
+            }
+          },
+          "onPageSEO": {
+            "description": {
+              "en": "Enhance website structure, content, and tags for both users and search engines.",
+              "ar": "تحسين هيكل الموقع والمحتوى والعلامات لكل من المستخدمين ومحركات البحث."
+            }
+          },
+          "technicalSEO": {
+            "description": {
+              "en": "Fix site speed, mobile-friendliness, and overall website performance issues.",
+              "ar": "إصلاح سرعة الموقع، وسهولة استخدامه على الأجهزة المحمولة، وأداء الموقع العام."
+            }
+          },
+          "localSEO": {
+            "description": {
+              "en": "Target location-based searches to attract local customers.",
+              "ar": "استهداف عمليات البحث حسب الموقع لجذب العملاء المحليين."
+            }
+          }
+        },
+        "seoProcess": [
           {
-            "name": "Engage And Grow",
-            "description": "Build a loyal online community with our social media management services. We create compelling content, manage your social profiles, and run targeted campaigns that boost brand awareness and encourage interaction."
+            "step": {
+              "en": "Website Audit",
+              "ar": "تدقيق الموقع"
+            },
+            "description": {
+              "en": "Analyze website structure, broken links, page speed, and other elements affecting ranking.",
+              "ar": "تحليل هيكل الموقع والروابط المعطلة وسرعة الصفحات وعناصر أخرى تؤثر على الترتيب."
+            }
           },
           {
-            "name": "Inform And Inspire",
-            "description": "Our content marketing strategies deliver valuable and relevant content that resonates with your audience. From blog posts and articles to infographics and videos, we craft content that informs, engages, and inspires customers to take action."
+            "step": {
+              "en": "Keyword Research",
+              "ar": "بحث الكلمات المفتاحية"
+            },
+            "description": {
+              "en": "Identify high-intent keywords relevant to your business for optimized targeting.",
+              "ar": "تحديد الكلمات المفتاحية عالية النية ذات الصلة بأعمالك لاستهداف محسّن."
+            }
           },
           {
-            "name": "Personalized Outreach",
-            "description": "Stay connected with your audience through personalized email marketing campaigns. We design strategies that nurture leads, promote products, and drive conversions, ensuring impactful and relevant messages."
+            "step": {
+              "en": "Technical and On-Page SEO",
+              "ar": "SEO الفني وعلى الصفحة"
+            },
+            "description": {
+              "en": "Optimize website structure, content, and technical elements for better visibility and UX.",
+              "ar": "تحسين هيكل الموقع والمحتوى والعناصر التقنية لزيادة الوضوح وتجربة المستخدم."
+            }
+          },
+          {
+            "step": {
+              "en": "Backlinking and Off-Page Activities",
+              "ar": "الباك لينك والنشاطات خارج الصفحة"
+            },
+            "description": {
+              "en": "Build high-quality backlinks through guest posts, social engagement, and local citations.",
+              "ar": "بناء روابط خلفية عالية الجودة من خلال المقالات الضيفية والمشاركة الاجتماعية والاستشهادات المحلية."
+            }
+          },
+          {
+            "step": {
+              "en": "Monitoring and Analysis",
+              "ar": "المراقبة والتحليل"
+            },
+            "description": {
+              "en": "Track website performance using analytics tools to identify trends and opportunities.",
+              "ar": "متابعة أداء الموقع باستخدام أدوات التحليل لتحديد الاتجاهات والفرص."
+            }
+          },
+          {
+            "step": {
+              "en": "Reporting",
+              "ar": "التقارير"
+            },
+            "description": {
+              "en": "Provide regular reports including key metrics, milestones, and actionable insights.",
+              "ar": "تقديم تقارير منتظمة تشمل المقاييس الرئيسية والمعالم والرؤى القابلة للتنفيذ."
+            }
+          }
+        ],
+        "benefits": [
+          {
+            "en": "Increased Visibility and Traffic: Organic traffic grows steadily without paying per click.",
+            "ar": "زيادة الظهور وحركة المرور: ينمو الزوار العضوي بشكل مستمر دون دفع مقابل كل نقرة."
+          },
+          {
+            "en": "Builds Trust and Credibility: Positions your brand as an authority in your industry.",
+            "ar": "بناء الثقة والمصداقية: يضع علامتك التجارية كسلطة في مجالك."
+          },
+          {
+            "en": "Better User Experience: Improves website usability while enhancing rankings.",
+            "ar": "تحسين تجربة المستخدم: يحسن قابلية استخدام الموقع مع تعزيز الترتيب."
+          },
+          {
+            "en": "Cost-Effective Marketing: Generates leads and sales with high ROI compared to paid ads.",
+            "ar": "تسويق فعال من حيث التكلفة: يولد عملاء محتملين ومبيعات بعائد مرتفع مقارنة بالإعلانات المدفوعة."
+          },
+          {
+            "en": "Outshine the Competition: Helps you compete effectively against other businesses.",
+            "ar": "التفوق على المنافسة: يساعدك على المنافسة بفعالية ضد الشركات الأخرى."
+          },
+          {
+            "en": "Drives Local Traffic: Attracts local customers and builds a loyal base.",
+            "ar": "زيادة حركة المرور المحلية: يجذب العملاء المحليين ويبني قاعدة وفية."
+          }
+        ],
+        "whyChooseUs": {
+          "marketStrategy": {
+            "en": "Customized SEO strategies for the Middle Eastern market.",
+            "ar": "استراتيجيات SEO مخصصة لسوق الشرق الأوسط."
+          },
+          "expertise": {
+            "en": "Full coverage from e-commerce SEO to technical SEO.",
+            "ar": "تغطية كاملة من SEO التجارة الإلكترونية إلى SEO الفني."
+          },
+          "provenResults": {
+            "en": "Track record of boosting traffic and sales for diverse businesses.",
+            "ar": "سجل حافل في زيادة الحركة والمبيعات لمختلف الشركات."
+          },
+          "comprehensiveServices": {
+            "en": "End-to-end digital marketing solutions beyond SEO.",
+            "ar": "حلول تسويق رقمي شاملة تتجاوز SEO."
+          },
+          "transparentCommunication": {
+            "en": "Regular reports and updates for complete transparency.",
+            "ar": "تقارير وتحديثات منتظمة لتحقيق الشفافية الكاملة."
+          },
+          "longTermPartnership": {
+            "en": "Ongoing strategy adjustments to maintain high rankings and relevance.",
+            "ar": "تعديلات مستمرة في الاستراتيجية للحفاظ على ترتيب مرتفع والملاءمة."
+          }
+        },
+        "faqs": [
+          {
+            "question": {
+              "en": "What are affordable SEO services?",
+              "ar": "ما هي خدمات SEO بأسعار معقولة؟"
+            },
+            "answer": {
+              "en": "Cost-effective strategies to improve online visibility, including keyword research, content optimization, backlink building, and technical SEO.",
+              "ar": "استراتيجيات فعّالة من حيث التكلفة لتحسين الظهور على الإنترنت، بما في ذلك بحث الكلمات المفتاحية، وتحسين المحتوى، وبناء الروابط الخلفية، وSEO الفني."
+            }
+          },
+          {
+            "question": {
+              "en": "How long does it take to see results from SEO?",
+              "ar": "كم يستغرق رؤية نتائج SEO؟"
+            },
+            "answer": {
+              "en": "Typically 4 to 6 months for significant results, though some improvements may appear within the first few months.",
+              "ar": "عادةً 4 إلى 6 أشهر للحصول على نتائج ملحوظة، رغم أن بعض التحسينات قد تظهر خلال الأشهر القليلة الأولى."
+            }
+          },
+          {
+            "question": {
+              "en": "What's the difference between e-commerce SEO services and regular SEO?",
+              "ar": "ما الفرق بين SEO للتجارة الإلكترونية وSEO العادي؟"
+            },
+            "answer": {
+              "en": "E-commerce SEO focuses on online stores, optimizing product pages, site speed, and shopping experience. Regular SEO covers broader content and website optimization.",
+              "ar": "يركز SEO للتجارة الإلكترونية على المتاجر الإلكترونية، وتحسين صفحات المنتجات، وسرعة الموقع، وتجربة التسوق. يغطي SEO العادي محتوى أوسع وتحسين الموقع."
+            }
+          },
+          {
+            "question": {
+              "en": "Do I need professional SEO services, or can I do it myself?",
+              "ar": "هل أحتاج إلى خدمات SEO احترافية أم يمكنني القيام بها بنفسي؟"
+            },
+            "answer": {
+              "en": "Professional services provide expertise, tools, and strategies for long-term success, including technical SEO, competitor analysis, and algorithm updates.",
+              "ar": "توفر الخدمات الاحترافية الخبرة والأدوات والاستراتيجيات للنجاح على المدى الطويل، بما في ذلك SEO الفني، وتحليل المنافسين، وتحديثات الخوارزميات."
+            }
+          },
+          {
+            "question": {
+              "en": "How do you track the success of SEO campaigns?",
+              "ar": "كيف تتتبع نجاح حملات SEO؟"
+            },
+            "answer": {
+              "en": "We use tools like Google Analytics, keyword tracking, and backlink analysis, providing regular reports with traffic, rankings, and conversion insights.",
+              "ar": "نستخدم أدوات مثل Google Analytics وتتبع الكلمات المفتاحية وتحليل الروابط الخلفية، مع تقديم تقارير منتظمة تحتوي على حركة المرور والترتيب ورؤى التحويل."
+            }
+          }
+        ]
+      },
+      {
+        "id": "contentWriting",
+        "service": {
+          "en": "Content Writing",
+          "ar": "كتابة المحتوى"
+        },
+        "description": {
+          "en": "Emerging Software provides professional content writing services in the Middle East, turning websites into customer-generating machines with high-quality, ROI-focused content.",
+          "ar": "توفر شركة Emerging Software خدمات كتابة المحتوى الاحترافية في الشرق الأوسط، مما يحوّل المواقع إلى آلات لجذب العملاء بمحتوى عالي الجودة يركز على العائد على الاستثمار."
+        },
+        "marketFocus": {
+          "en": "Middle East",
+          "ar": "الشرق الأوسط"
+        },
+        "contact": {
+          "namePlaceholder": {
+            "en": "Your Name",
+            "ar": "اسمك"
+          },
+          "emailPlaceholder": {
+            "en": "example@email.com",
+            "ar": "البريد الإلكتروني"
+          },
+          "phonePlaceholder": {
+            "en": "Your Contact Number",
+            "ar": "رقم الاتصال الخاص بك"
+          },
+          "messagePlaceholder": {
+            "en": "Your Message Here",
+            "ar": "رسالتك هنا"
+          }
+        },
+        "valueProposition": {
+          "en": "We create addictive, persuasive, and SEO-friendly content that builds trust, attracts customers, and drives sales across all industries.",
+          "ar": "ننشئ محتوى جذابًا، مقنعًا وصديقًا لمحركات البحث يبني الثقة، ويجذب العملاء، ويزيد المبيعات عبر جميع الصناعات."
+        },
+        "typesOfContent": {
+          "blogPosts": {
+            "description": {
+              "en": "Addictive content that keeps your audience coming back, perfect for any business with a website.",
+              "ar": "محتوى جذاب يبقي جمهورك عائدًا، مثالي لأي عمل لديه موقع ويب."
+            }
+          },
+          "seoContent": {
+            "description": {
+              "en": "Content that boosts search engine optimization and outranks your competition.",
+              "ar": "محتوى يعزز تحسين محركات البحث ويتفوق على منافسيك."
+            }
+          },
+          "whitePapers": {
+            "description": {
+              "en": "Professional white papers for B2B companies and thought leaders.",
+              "ar": "أوراق بيضاء احترافية للشركات B2B والقادة الفكريين."
+            }
+          },
+          "pressReleases": {
+            "description": {
+              "en": "Content that informs and creates media buzz around your brand.",
+              "ar": "محتوى يُعلِم ويخلق ضجة إعلامية حول علامتك التجارية."
+            }
+          },
+          "websiteContent": {
+            "description": {
+              "en": "Persuasive content for websites that encourages conversions and supports smooth web development.",
+              "ar": "محتوى مقنع للمواقع يشجع التحويلات ويدعم تطوير الويب بسلاسة."
+            }
+          },
+          "productDescriptions": {
+            "description": {
+              "en": "Mouthwatering product descriptions for e-commerce businesses and anyone selling products.",
+              "ar": "وصف منتجات مغرٍ للأعمال التجارية الإلكترونية وأي شخص يبيع منتجات."
+            }
+          }
+        },
+        "process": [
+          {
+            "step": {
+              "en": "Investigate",
+              "ar": "التحقيق"
+            },
+            "description": {
+              "en": "Deep dive into your business, customers, and competitors to understand your market.",
+              "ar": "الغوص العميق في عملك وعملائك ومنافسيك لفهم سوقك."
+            }
+          },
+          {
+            "step": {
+              "en": "Strategize",
+              "ar": "استراتيجية"
+            },
+            "description": {
+              "en": "Craft a content plan with every word designed to maximize ROI.",
+              "ar": "صياغة خطة محتوى مع كل كلمة مصممة لتعظيم العائد على الاستثمار."
+            }
+          },
+          {
+            "step": {
+              "en": "Create",
+              "ar": "إنشاء"
+            },
+            "description": {
+              "en": "Develop content that is captivating, engaging, and aligned with your strategy.",
+              "ar": "تطوير محتوى جذاب ومشارك ومتوافق مع استراتيجيتك."
+            }
+          },
+          {
+            "step": {
+              "en": "Refine",
+              "ar": "تحسين"
+            },
+            "description": {
+              "en": "Polish content to ensure clarity, impact, and quality.",
+              "ar": "تنقيح المحتوى لضمان الوضوح والتأثير والجودة."
+            }
+          },
+          {
+            "step": {
+              "en": "Deliver",
+              "ar": "تسليم"
+            },
+            "description": {
+              "en": "Provide ready-to-use content for publishing or marketing campaigns.",
+              "ar": "تقديم محتوى جاهز للنشر أو الحملات التسويقية."
+            }
+          },
+          {
+            "step": {
+              "en": "Analyze",
+              "ar": "تحليل"
+            },
+            "description": {
+              "en": "Monitor performance, refine strategies, and continuously improve results.",
+              "ar": "مراقبة الأداء، تحسين الاستراتيجيات، وتحسين النتائج باستمرار."
+            }
+          }
+        ],
+        "importanceOfContent": [
+          {
+            "en": "24/7 Salesperson: Quality content works for you even while you sleep.",
+            "ar": "مندوب مبيعات 24/7: المحتوى الجيد يعمل من أجلك حتى أثناء نومك."
+          },
+          {
+            "en": "Reputation Builder: Positions your brand as an expert and market leader.",
+            "ar": "بناء السمعة: يضع علامتك التجارية كخبير ورائد في السوق."
+          },
+          {
+            "en": "SEO Supercharger: Boosts search engine rankings and visibility.",
+            "ar": "معزز SEO: يعزز ترتيب محركات البحث والظهور."
+          },
+          {
+            "en": "Customer Magnet: Attracts and retains website visitors.",
+            "ar": "جاذب العملاء: يجذب الزوار ويبقيهم على موقعك."
+          },
+          {
+            "en": "Trust Builder: Builds credibility and customer confidence.",
+            "ar": "بناء الثقة: يعزز المصداقية وثقة العملاء."
+          },
+          {
+            "en": "Competitive Edge: Helps you stand out from competitors with cost-effective content.",
+            "ar": "ميزة تنافسية: يساعدك على التميز عن المنافسين بمحتوى فعال من حيث التكلفة."
+          }
+        ],
+        "whyChooseUs": {
+          "localExpertise": {
+            "en": "Deep understanding of Middle Eastern business and culture.",
+            "ar": "فهم عميق لأعمال وثقافة الشرق الأوسط."
+          },
+          "speedAndEfficiency": {
+            "en": "Deliver content faster than competitors while maintaining strategy.",
+            "ar": "تسليم المحتوى أسرع من المنافسين مع الحفاظ على الاستراتيجية."
+          },
+          "marketingExperts": {
+            "en": "Content is created by marketing professionals focused on ROI.",
+            "ar": "يتم إنشاء المحتوى بواسطة محترفي التسويق مع التركيز على العائد على الاستثمار."
+          },
+          "resultsFocused": {
+            "en": "Every piece of content is designed to generate revenue, not vanity metrics.",
+            "ar": "كل قطعة محتوى مصممة لتوليد الإيرادات، وليس لمقاييس الشكل."
+          },
+          "multiLanguage": {
+            "en": "Content delivered in Arabic, English, or the language of profit for maximum impact.",
+            "ar": "يتم تسليم المحتوى بالعربية أو الإنجليزية أو لغة الربح لتحقيق أقصى تأثير."
+          }
+        },
+        "faqs": [
+          {
+            "question": {
+              "en": "How much do your content writing services cost?",
+              "ar": "كم تكلف خدمات كتابة المحتوى الخاصة بكم؟"
+            },
+            "answer": {
+              "en": "Costs depend on the type of content. Services are highly valuable and cost-effective, designed to generate revenue.",
+              "ar": "تعتمد التكاليف على نوع المحتوى. الخدمات ذات قيمة عالية وفعالة من حيث التكلفة، ومصممة لتوليد الإيرادات."
+            }
+          },
+          {
+            "question": {
+              "en": "How fast can you deliver content?",
+              "ar": "كم بسرعة يمكنكم تسليم المحتوى؟"
+            },
+            "answer": {
+              "en": "Most content can be delivered within a few days, with strategy and quality maintained throughout.",
+              "ar": "يمكن تسليم معظم المحتوى في غضون أيام قليلة مع الحفاظ على الاستراتيجية والجودة طوال الوقت."
+            }
+          },
+          {
+            "question": {
+              "en": "Do you guarantee results?",
+              "ar": "هل تضمنون النتائج؟"
+            },
+            "answer": {
+              "en": "Yes, we guarantee that our content will make you more money than you spend with us.",
+              "ar": "نعم، نضمن أن محتوىنا سيجلب لك أرباحًا أكثر مما تنفق معنا."
+            }
+          },
+          {
+            "question": {
+              "en": "Will this work for my business?",
+              "ar": "هل سينجح هذا مع عملي؟"
+            },
+            "answer": {
+              "en": "Yes, we have experience across all industries in the Middle East, including B2B, B2C, products, and services.",
+              "ar": "نعم، لدينا خبرة في جميع الصناعات في الشرق الأوسط، بما في ذلك B2B وB2C والمنتجات والخدمات."
+            }
+          },
+          {
+            "question": {
+              "en": "How do you measure success?",
+              "ar": "كيف تقيسون النجاح؟"
+            },
+            "answer": {
+              "en": "Success is measured by revenue generated. We also track engagement metrics but prioritize ROI.",
+              "ar": "يتم قياس النجاح بالإيرادات المتولدة. نحن نتابع أيضًا مقاييس التفاعل ولكن نعطي الأولوية للعائد على الاستثمار."
+            }
+          }
+        ]
+      },
+      {
+        "id": "ppc",
+        "service": {
+          "en": "Pay-Per-Click Advertising",
+          "ar": "إعلانات الدفع مقابل النقرة"
+        },
+        "description": {
+          "en": "Emerging Software provides results-driven PPC advertising services in the Middle East, helping businesses gain instant visibility, targeted traffic, and higher conversions.",
+          "ar": "توفر شركة Emerging Software خدمات الإعلان بالدفع مقابل النقرة (PPC) في الشرق الأوسط، مما يساعد الشركات على الحصول على رؤية فورية، وزيارات مستهدفة، وزيادة التحويلات."
+        },
+        "marketFocus": {
+          "en": "Middle East",
+          "ar": "الشرق الأوسط"
+        },
+        "contact": {
+          "namePlaceholder": {
+            "en": "Your Name",
+            "ar": "اسمك"
+          },
+          "emailPlaceholder": {
+            "en": "example@email.com",
+            "ar": "البريد الإلكتروني"
+          },
+          "phonePlaceholder": {
+            "en": "Your Contact Number",
+            "ar": "رقم الاتصال الخاص بك"
+          },
+          "messagePlaceholder": {
+            "en": "Your Message Here",
+            "ar": "رسالتك هنا"
+          }
+        },
+        "valueProposition": {
+          "en": "PPC ads deliver instant traffic and measurable results by targeting users actively searching for your products or services. You only pay when someone clicks your ad.",
+          "ar": "تقدم إعلانات الدفع مقابل النقرة (PPC) حركة مرور فورية ونتائج قابلة للقياس من خلال استهداف المستخدمين الذين يبحثون بنشاط عن منتجاتك أو خدماتك. تدفع فقط عند نقر شخص على إعلانك."
+        },
+        "importance": {
+          "en": "PPC ensures your business appears in front of potential customers at the exact moment they are looking for your products, offering immediate visibility and conversions.",
+          "ar": "تضمن إعلانات الدفع مقابل النقرة ظهور عملك أمام العملاء المحتملين في اللحظة الدقيقة التي يبحثون فيها عن منتجاتك، مما يوفر رؤية فورية وتحويلات سريعة."
+        },
+        "typesOfPPCAds": {
+          "searchAds": {
+            "description": {
+              "en": "Intent-driven ads that appear on search engine results pages (SERPs).",
+              "ar": "إعلانات موجهة بالنية تظهر في صفحات نتائج محركات البحث."
+            },
+            "benefit": {
+              "en": "Target users actively searching for your products/services.",
+              "ar": "استهداف المستخدمين الذين يبحثون بنشاط عن منتجاتك/خدماتك."
+            },
+            "idealFor": {
+              "en": "Businesses seeking leads, sales, or website traffic.",
+              "ar": "الشركات التي تسعى للحصول على عملاء محتملين أو مبيعات أو زيارات للموقع."
+            }
+          },
+          "displayAds": {
+            "description": {
+              "en": "Visually appealing banner ads on websites, blogs, and apps.",
+              "ar": "إعلانات بانر جذابة بصريًا على المواقع والمدونات والتطبيقات."
+            },
+            "benefit": {
+              "en": "Boost brand awareness and stay top-of-mind even without searches.",
+              "ar": "تعزيز وعي العلامة التجارية والبقاء في ذهن العملاء حتى بدون عمليات البحث."
+            },
+            "idealFor": {
+              "en": "Businesses looking for broad visibility and recognition.",
+              "ar": "الشركات التي تبحث عن رؤية وانتشار واسع."
+            }
+          },
+          "shoppingAds": {
+            "description": {
+              "en": "Product-focused ads with image, price, and link for e-commerce.",
+              "ar": "إعلانات تركز على المنتجات مع الصورة والسعر والرابط للتجارة الإلكترونية."
+            },
+            "benefit": {
+              "en": "Show exactly what shoppers are looking for, increasing conversions.",
+              "ar": "عرض ما يبحث عنه المتسوقون بالضبط، مما يزيد من التحويلات."
+            },
+            "idealFor": {
+              "en": "E-commerce businesses selling products online.",
+              "ar": "الأعمال التجارية الإلكترونية التي تبيع المنتجات عبر الإنترنت."
+            }
+          },
+          "videoAds": {
+            "description": {
+              "en": "Engaging video ads on platforms like YouTube.",
+              "ar": "إعلانات فيديو جذابة على منصات مثل يوتيوب."
+            },
+            "benefit": {
+              "en": "Build emotional connections and brand awareness.",
+              "ar": "بناء روابط عاطفية وزيادة الوعي بالعلامة التجارية."
+            },
+            "idealFor": {
+              "en": "Brands wanting deeper audience engagement.",
+              "ar": "العلامات التجارية التي ترغب في تفاعل أعمق مع الجمهور."
+            }
+          }
+        },
+        "ppcProcess": [
+          {
+            "step": {
+              "en": "Keyword Research",
+              "ar": "بحث الكلمات المفتاحية"
+            },
+            "description": {
+              "en": "Research high-intent keywords and bid to ensure ads appear for relevant searches.",
+              "ar": "البحث عن كلمات مفتاحية ذات نية عالية والمزايدة لضمان ظهور الإعلانات للبحث المناسب."
+            }
+          },
+          {
+            "step": {
+              "en": "Campaign Setup",
+              "ar": "إعداد الحملة"
+            },
+            "description": {
+              "en": "Create ad groups, write compelling copy, set budgets, and select bid strategies.",
+              "ar": "إنشاء مجموعات الإعلانات، كتابة نصوص جذابة، تحديد الميزانيات، واختيار استراتيجيات العطاء."
+            }
+          },
+          {
+            "step": {
+              "en": "Ad Creation",
+              "ar": "إنشاء الإعلانات"
+            },
+            "description": {
+              "en": "Design attention-grabbing ads including text, display banners, and video content.",
+              "ar": "تصميم إعلانات جذابة بما في ذلك النصوص والبانرات والفيديو."
+            }
+          },
+          {
+            "step": {
+              "en": "Launch and Monitor",
+              "ar": "الإطلاق والمراقبة"
+            },
+            "description": {
+              "en": "Constantly monitor performance, adjust bids, test ad copy, and refine targeting.",
+              "ar": "مراقبة الأداء باستمرار، تعديل العطاءات، اختبار نصوص الإعلانات، وتحسين الاستهداف."
+            }
+          },
+          {
+            "step": {
+              "en": "Reporting and Analysis",
+              "ar": "التقارير والتحليل"
+            },
+            "description": {
+              "en": "Provide detailed reports with metrics like CTR, conversions, and ROAS.",
+              "ar": "تقديم تقارير مفصلة تتضمن مقاييس مثل معدل النقر، التحويلات، وعائد الإنفاق على الإعلان."
+            }
+          }
+        ],
+        "benefits": [
+          {
+            "en": "Instant Traffic: Drive visitors immediately after ads go live.",
+            "ar": "حركة مرور فورية: جذب الزوار فور نشر الإعلانات."
+          },
+          {
+            "en": "Highly Targeted Ads: Reach specific audiences by location, age, interests, and device.",
+            "ar": "إعلانات مستهدفة بدقة: الوصول إلى جمهور محدد حسب الموقع، العمر، الاهتمامات، والجهاز."
+          },
+          {
+            "en": "Measurable Results: Track clicks, impressions, conversions, and acquisition cost.",
+            "ar": "نتائج قابلة للقياس: تتبع النقرات، الانطباعات، التحويلات، وتكلفة الاكتساب."
+          },
+          {
+            "en": "Cost Control: Set budget and pay only for clicks.",
+            "ar": "التحكم في التكاليف: تحديد الميزانية والدفع فقط مقابل النقرات."
+          },
+          {
+            "en": "Boosts Brand Awareness: Even unseen ads increase visibility.",
+            "ar": "زيادة وعي العلامة التجارية: حتى الإعلانات غير المرئية تزيد من الرؤية."
+          },
+          {
+            "en": "Flexibility and Scalability: Scale campaigns based on budget and business growth.",
+            "ar": "المرونة وقابلية التوسع: توسيع الحملات وفقًا للميزانية ونمو الأعمال."
+          }
+        ],
+        "whyChooseUs": {
+          "expertise": {
+            "en": "Deep understanding of Middle Eastern market nuances and online behavior.",
+            "ar": "فهم عميق لفروق السوق الشرق أوسطية وسلوك المستخدمين على الإنترنت."
+          },
+          "dataDriven": {
+            "en": "Analyze data from website performance and competitors to optimize campaigns.",
+            "ar": "تحليل بيانات أداء الموقع والمنافسين لتحسين الحملات."
+          },
+          "platformKnowledge": {
+            "en": "Google Certified PPC experts managing ads across Google, Facebook, Instagram, LinkedIn, and YouTube.",
+            "ar": "خبراء PPC معتمدون من Google لإدارة الإعلانات على Google وFacebook وInstagram وLinkedIn وYouTube."
+          },
+          "customApproach": {
+            "en": "Tailored campaigns for businesses of all sizes with a focus on conversions.",
+            "ar": "حملات مخصصة لجميع أحجام الأعمال مع التركيز على التحويلات."
+          },
+          "scalableSolutions": {
+            "en": "Start small and grow campaigns while maximizing ROI.",
+            "ar": "ابدأ بحملات صغيرة وتوسيعها مع زيادة العائد على الاستثمار."
+          }
+        },
+        "expectations": [
+          {
+            "en": "Higher Conversions: Turn clicks into customers.",
+            "ar": "تحويلات أعلى: تحويل النقرات إلى عملاء."
+          },
+          {
+            "en": "Better ROI: Maximize every ad dollar.",
+            "ar": "عائد استثمار أفضل: الاستفادة القصوى من كل دولار إعلان."
+          },
+          {
+            "en": "Targeted Traffic: Reach the right audience at the right time.",
+            "ar": "حركة مرور مستهدفة: الوصول إلى الجمهور المناسب في الوقت المناسب."
+          },
+          {
+            "en": "Transparency: Regular reports and updates on ad performance.",
+            "ar": "الشفافية: تقارير وتحديثات منتظمة حول أداء الإعلانات."
+          }
+        ],
+        "faqs": [
+          {
+            "question": {
+              "en": "Why should I use PPC ad management services over organic SEO?",
+              "ar": "لماذا يجب علي استخدام خدمات إدارة إعلانات PPC بدلاً من تحسين محركات البحث العضوي؟"
+            },
+            "answer": {
+              "en": "PPC provides instant traffic and visibility, ideal for promotions, product launches, or quick results, unlike SEO which takes months.",
+              "ar": "تقدم إعلانات PPC حركة مرور ورؤية فورية، مثالية للترويج، إطلاق المنتجات، أو النتائج السريعة، على عكس SEO الذي يستغرق شهورًا."
+            }
+          },
+          {
+            "question": {
+              "en": "How much does PPC Ads Services cost?",
+              "ar": "كم تكلفة خدمات إعلانات PPC؟"
+            },
+            "answer": {
+              "en": "Cost depends on keyword competitiveness, platform, and budget. You control your spend and only pay for clicks.",
+              "ar": "تعتمد التكلفة على تنافسية الكلمات المفتاحية، المنصة، والميزانية. أنت تتحكم في الإنفاق وتدفع فقط مقابل النقرات."
+            }
+          },
+          {
+            "question": {
+              "en": "How long does it take to see results from PPC ads services?",
+              "ar": "كم من الوقت يستغرق لرؤية نتائج خدمات إعلانات PPC؟"
+            },
+            "answer": {
+              "en": "Results are almost immediate, with traffic and conversions possible within hours or days.",
+              "ar": "النتائج شبه فورية، مع إمكانية الحصول على حركة مرور وتحويلات خلال ساعات أو أيام."
+            }
+          },
+          {
+            "question": {
+              "en": "What platforms can I run PPC ads on?",
+              "ar": "على أي منصات يمكنني تشغيل إعلانات PPC؟"
+            },
+            "answer": {
+              "en": "PPC ads can run on Google, Facebook, Instagram, LinkedIn, YouTube, and more. Platform choice depends on campaign goals.",
+              "ar": "يمكن تشغيل إعلانات PPC على Google وFacebook وInstagram وLinkedIn وYouTube والمزيد. يعتمد اختيار المنصة على أهداف الحملة."
+            }
+          },
+          {
+            "question": {
+              "en": "What is the difference between Search Ads and Display Ads?",
+              "ar": "ما الفرق بين إعلانات البحث وإعلانات العرض؟"
+            },
+            "answer": {
+              "en": "Search Ads appear for active searches; Display Ads appear on websites/apps regardless of search intent. Search Ads are better for direct intent, Display Ads for brand awareness.",
+              "ar": "تظهر إعلانات البحث للبحث النشط؛ بينما تظهر إعلانات العرض على المواقع/التطبيقات بغض النظر عن نية البحث. إعلانات البحث أفضل للنوايا المباشرة، وإعلانات العرض للوعي بالعلامة التجارية."
+            }
+          },
+          {
+            "question": {
+              "en": "Can I track the success of my PPC campaign?",
+              "ar": "هل يمكنني تتبع نجاح حملة PPC الخاصة بي؟"
+            },
+            "answer": {
+              "en": "Yes, using metrics like impressions, clicks, CTR, and conversions in real-time.",
+              "ar": "نعم، باستخدام مقاييس مثل الانطباعات، النقرات، معدل النقر، والتحويلات في الوقت الفعلي."
+            }
+          },
+          {
+            "question": {
+              "en": "How does Emerging Software manage my PPC campaign?",
+              "ar": "كيف تدير شركة Emerging Software حملة PPC الخاصة بي؟"
+            },
+            "answer": {
+              "en": "We handle everything from keyword research and ad creation to campaign optimization and reporting, ensuring maximum ROI.",
+              "ar": "نتولى كل شيء من البحث عن الكلمات المفتاحية وإنشاء الإعلانات إلى تحسين الحملات وإعداد التقارير لضمان أقصى عائد على الاستثمار."
+            }
+          }
+        ]
+      },
+      {
+        "id": "affiliateMarketing",
+        "service": {
+          "en": "Affiliate Marketing",
+          "ar": "التسويق بالعمولة"
+        },
+        "description": {
+          "en": "Comprehensive Affiliate Marketing services in the Middle East that help businesses grow revenue through performance-based partnerships with affiliates.",
+          "ar": "خدمات شاملة للتسويق بالعمولة في الشرق الأوسط تساعد الشركات على زيادة الإيرادات من خلال شراكات قائمة على الأداء مع المسوقين بالعمولة."
+        },
+        "marketFocus": {
+          "en": "Middle East",
+          "ar": "الشرق الأوسط"
+        },
+        "contact": {
+          "namePlaceholder": {
+            "en": "Your Name",
+            "ar": "اسمك"
+          },
+          "emailPlaceholder": {
+            "en": "example@email.com",
+            "ar": "البريد الإلكتروني"
+          },
+          "phonePlaceholder": {
+            "en": "Your Contact Number",
+            "ar": "رقم الاتصال الخاص بك"
+          },
+          "messagePlaceholder": {
+            "en": "Your Message Here",
+            "ar": "رسالتك هنا"
+          }
+        },
+        "valueProposition": {
+          "en": "We connect your brand with high-performing affiliates across the Middle East, allowing you to pay only for real sales or leads.",
+          "ar": "نربط علامتك التجارية بمسوقين بالعمولة ذوي أداء عالي في جميع أنحاء الشرق الأوسط، مما يسمح لك بالدفع فقط مقابل المبيعات أو العملاء المحتملين الفعليين."
+        },
+        "whyItMatters": [
+          {
+            "en": "Performance-based: Only pay when you get sales or leads.",
+            "ar": "قائم على الأداء: تدفع فقط عند الحصول على المبيعات أو العملاء المحتملين."
+          },
+          {
+            "en": "Scale your reach: Leverage an army of affiliates promoting your brand.",
+            "ar": "توسيع نطاق وصولك: الاستفادة من شبكة واسعة من المسوقين الذين يروّجون لعلامتك التجارية."
+          },
+          {
+            "en": "Local expertise: Campaigns are tailored for the Middle Eastern market.",
+            "ar": "الخبرة المحلية: الحملات مصممة خصيصًا للسوق الشرق أوسطية."
+          },
+          {
+            "en": "Cost-effective growth: Maximize revenue without increasing upfront costs.",
+            "ar": "نمو فعال من حيث التكلفة: زيادة الإيرادات دون زيادة التكاليف الأولية."
+          },
+          {
+            "en": "Trust-driven: Recommendations from affiliates convert better than traditional ads.",
+            "ar": "قائم على الثقة: التوصيات من المسوقين بالعمولة تحقق معدلات تحويل أفضل من الإعلانات التقليدية."
+          }
+        ],
+        "uniqueSellingPoints": [
+          {
+            "en": "Deep understanding of Middle Eastern culture and buying habits.",
+            "ar": "فهم عميق للثقافة الشرق أوسطية وعادات الشراء."
+          },
+          {
+            "en": "Track and optimize every click, lead, and sale.",
+            "ar": "تتبع وتحسين كل نقرة وعميل محتمل ومبيعات."
+          },
+          {
+            "en": "Network of top-performing affiliates including bloggers, influencers, and email marketers.",
+            "ar": "شبكة من أفضل المسوقين بالعمولة بما في ذلك المدونون والمؤثرون ومسوقو البريد الإلكتروني."
+          }
+        ],
+        "affiliateTypes": {
+          "contentAffiliateMarketing": {
+            "description": {
+              "en": "Integrate products into blogs, product reviews, and how-to guides to drive traffic and conversions.",
+              "ar": "دمج المنتجات في المدونات، مراجعات المنتجات، وأدلة التعليمات لجذب حركة المرور وزيادة التحويلات."
+            }
+          },
+          "socialMediaAffiliateMarketing": {
+            "description": {
+              "en": "Leverage real influencers on Instagram, TikTok, and YouTube to reach and convert audiences quickly.",
+              "ar": "الاستفادة من المؤثرين الفعليين على Instagram وTikTok وYouTube للوصول إلى الجمهور وتحقيق التحويلات بسرعة."
+            }
+          },
+          "couponAndDealAffiliateMarketing": {
+            "description": {
+              "en": "Offer exclusive discounts and limited-time deals through coupon sites to boost sales and loyalty.",
+              "ar": "تقديم خصومات حصرية وعروض لفترة محدودة من خلال مواقع الكوبونات لتعزيز المبيعات والولاء."
+            }
+          },
+          "emailAffiliateMarketing": {
+            "description": {
+              "en": "Promote products via targeted email campaigns and newsletters sent by affiliates to their engaged audiences.",
+              "ar": "ترويج المنتجات من خلال حملات البريد الإلكتروني المستهدفة والنشرات الإخبارية التي يرسلها المسوقون بالعمولة إلى جمهورهم المتفاعل."
+            }
+          }
+        },
+        "benefits": [
+          {
+            "en": "Grow your business without increasing your marketing budget.",
+            "ar": "نمو أعمالك دون زيادة ميزانية التسويق."
+          },
+          {
+            "en": "Stop wasting money on ineffective advertising campaigns.",
+            "ar": "توقف عن إهدار المال على الحملات الإعلانية غير الفعالة."
+          },
+          {
+            "en": "Turn trust into sales with affiliate recommendations.",
+            "ar": "حوّل الثقة إلى مبيعات من خلال توصيات المسوقين بالعمولة."
+          },
+          {
+            "en": "Achieve broad market reach without additional effort.",
+            "ar": "تحقيق وصول واسع للسوق دون جهد إضافي."
+          }
+        ],
+        "process": [
+          {
+            "step": {
+              "en": "Schedule a Strategy Call",
+              "ar": "جدولة مكالمة استراتيجية"
+            },
+            "description": {
+              "en": "Discuss your business goals with one of our top affiliate marketing strategists.",
+              "ar": "مناقشة أهداف عملك مع أحد كبار خبراء التسويق بالعمولة لدينا."
+            }
+          },
+          {
+            "step": {
+              "en": "Custom Strategy Creation",
+              "ar": "إنشاء استراتيجية مخصصة"
+            },
+            "description": {
+              "en": "We create a tailored affiliate marketing plan for your products and target audience in the Middle East.",
+              "ar": "نقوم بإنشاء خطة تسويق بالعمولة مخصصة لمنتجاتك والجمهور المستهدف في الشرق الأوسط."
+            }
+          },
+          {
+            "step": {
+              "en": "Affiliate Network Activation",
+              "ar": "تفعيل شبكة المسوقين بالعمولة"
+            },
+            "description": {
+              "en": "Engage our network of high-performing affiliates to start promoting your brand.",
+              "ar": "تفعيل شبكتنا من المسوقين ذوي الأداء العالي لبدء الترويج لعلامتك التجارية."
+            }
+          },
+          {
+            "step": {
+              "en": "Monitoring and Optimization",
+              "ar": "المراقبة والتحسين"
+            },
+            "description": {
+              "en": "Track sales, leads, and campaign performance; continuously refine for maximum ROI.",
+              "ar": "تتبع المبيعات والعملاء المحتملين وأداء الحملة؛ تحسين مستمر لتحقيق أقصى عائد على الاستثمار."
+            }
+          }
+        ],
+        "faqs": [
+          {
+            "question": {
+              "en": "What is Affiliate Marketing?",
+              "ar": "ما هو التسويق بالعمولة؟"
+            },
+            "answer": {
+              "en": "Affiliate marketing is a performance-based method that pays commissions to affiliates for promoting your products or services via unique links.",
+              "ar": "التسويق بالعمولة هو طريقة قائمة على الأداء تدفع عمولات للمسوقين للترويج لمنتجاتك أو خدماتك عبر روابط فريدة."
+            }
+          },
+          {
+            "question": {
+              "en": "How can I avail Affiliate Marketing services?",
+              "ar": "كيف يمكنني الاستفادة من خدمات التسويق بالعمولة؟"
+            },
+            "answer": {
+              "en": "Sign up for our program, and our team will promote your products across various channels using affiliates.",
+              "ar": "سجل في برنامجنا، وفريقنا سيقوم بترويج منتجاتك عبر قنوات مختلفة باستخدام المسوقين بالعمولة."
+            }
+          },
+          {
+            "question": {
+              "en": "Is Affiliate Marketing dead?",
+              "ar": "هل التسويق بالعمولة قد انتهى؟"
+            },
+            "answer": {
+              "en": "No, it continues to thrive as businesses increasingly shift online. Affiliate marketing remains an effective revenue-generating strategy.",
+              "ar": "لا، لا يزال التسويق بالعمولة مزدهرًا حيث تتحول الشركات بشكل متزايد إلى الإنترنت. يظل التسويق بالعمولة استراتيجية فعالة لتحقيق الإيرادات."
+            }
+          },
+          {
+            "question": {
+              "en": "Do I need a website for Affiliate Marketing?",
+              "ar": "هل أحتاج إلى موقع إلكتروني للتسويق بالعمولة؟"
+            },
+            "answer": {
+              "en": "A website is helpful but not required. Products can be promoted through social media, email campaigns, and platforms like YouTube.",
+              "ar": "الموقع الإلكتروني مفيد ولكنه غير مطلوب. يمكن الترويج للمنتجات عبر وسائل التواصل الاجتماعي، حملات البريد الإلكتروني، ومنصات مثل YouTube."
+            }
+          },
+          {
+            "question": {
+              "en": "Which products should I pick for Affiliate Marketing?",
+              "ar": "ما المنتجات التي يجب اختيارها للتسويق بالعمولة؟"
+            },
+            "answer": {
+              "en": "Focus on products that meet the demands of your target audience. High-quality, relevant products convert better and build trust.",
+              "ar": "ركز على المنتجات التي تلبي احتياجات جمهورك المستهدف. المنتجات عالية الجودة وذات الصلة تحقق تحويلات أفضل وتبني الثقة."
+            }
+          },
+          {
+            "question": {
+              "en": "What is the difference between dropshipping and affiliate marketing?",
+              "ar": "ما الفرق بين الدروب شيبنج والتسويق بالعمولة؟"
+            },
+            "answer": {
+              "en": "Dropshipping involves selling products directly and managing customer service, while affiliate marketing earns commissions through referrals with no inventory or service responsibility.",
+              "ar": "الدروب شيبنج يتضمن بيع المنتجات مباشرة وإدارة خدمة العملاء، بينما التسويق بالعمولة يحقق عمولات من خلال الإحالات دون مسؤولية المخزون أو الخدمة."
+            }
+          }
+        ]
+      },
+      {
+        "id": "websiteDevelopment",
+        "service": {
+          "en": "Website Development",
+          "ar": "تطوير المواقع الإلكترونية"
+        },
+        "description": {
+          "en": "Professional website development services in the Middle East, creating high-performance websites that drive leads, sales, and brand growth.",
+          "ar": "خدمات تطوير المواقع الإلكترونية الاحترافية في الشرق الأوسط، إنشاء مواقع عالية الأداء تزيد من العملاء والمبيعات ونمو العلامة التجارية."
+        },
+        "marketFocus": {
+          "en": "Middle East",
+          "ar": "الشرق الأوسط"
+        },
+        "contact": {
+          "namePlaceholder": {
+            "en": "Your Name",
+            "ar": "اسمك"
+          },
+          "emailPlaceholder": {
+            "en": "example@email.com",
+            "ar": "البريد الإلكتروني"
+          },
+          "phonePlaceholder": {
+            "en": "Your Contact Number",
+            "ar": "رقم الاتصال الخاص بك"
+          },
+          "messagePlaceholder": {
+            "en": "Your Message Here",
+            "ar": "رسالتك هنا"
+          }
+        },
+        "valueProposition": {
+          "en": "We build money-making websites, not just online pages. Our development services are designed to increase revenue and engagement across all devices.",
+          "ar": "نقوم ببناء مواقع إلكترونية تحقق الأرباح، وليس مجرد صفحات على الإنترنت. خدماتنا مصممة لزيادة الإيرادات والتفاعل عبر جميع الأجهزة."
+        },
+        "developmentTypes": {
+          "customWebDevelopment": {
+            "description": {
+              "en": "Tailored websites designed for your business goals with custom features and code for maximum impact.",
+              "ar": "مواقع مصممة خصيصًا لأهداف عملك مع ميزات مخصصة وبرمجة لتحقيق أقصى تأثير."
+            }
+          },
+          "wordpressDevelopment": {
+            "description": {
+              "en": "Flexible, secure, and fast WordPress websites, optimized to act as your 24/7 digital salesperson.",
+              "ar": "مواقع ووردبريس مرنة وآمنة وسريعة، مصممة لتعمل كبائع رقمي على مدار الساعة."
+            }
+          },
+          "shopifyDevelopment": {
+            "description": {
+              "en": "E-commerce Shopify stores built for seamless sales and an exceptional shopping experience.",
+              "ar": "متاجر Shopify للتجارة الإلكترونية مصممة لمبيعات سلسة وتجربة تسوق استثنائية."
+            }
+          },
+          "ecommerceWebDevelopment": {
+            "description": {
+              "en": "Comprehensive e-commerce solutions, including WooCommerce or custom platforms, to maximize online sales.",
+              "ar": "حلول تجارة إلكترونية شاملة، بما في ذلك WooCommerce أو منصات مخصصة، لتعظيم المبيعات عبر الإنترنت."
+            }
+          }
+        },
+        "process": [
+          {
+            "step": {
+              "en": "Plan",
+              "ar": "التخطيط"
+            },
+            "description": {
+              "en": "Strategically plan features, pages, layouts, and website design to align with business goals.",
+              "ar": "التخطيط الاستراتيجي للميزات والصفحات والتصميم لتوافق أهداف العمل."
+            }
+          },
+          {
+            "step": {
+              "en": "Listen",
+              "ar": "الاستماع"
+            },
+            "description": {
+              "en": "Understand your business objectives, target customers, and challenges to ensure a tailored solution.",
+              "ar": "فهم أهداف عملك والعملاء المستهدفين والتحديات لضمان حل مخصص."
+            }
+          },
+          {
+            "step": {
+              "en": "Build",
+              "ar": "البناء"
+            },
+            "description": {
+              "en": "Develop high-quality websites efficiently using best practices and modern technologies.",
+              "ar": "تطوير مواقع عالية الجودة بكفاءة باستخدام أفضل الممارسات والتقنيات الحديثة."
+            }
+          },
+          {
+            "step": {
+              "en": "Launch",
+              "ar": "الإطلاق"
+            },
+            "description": {
+              "en": "Deploy the website with full testing and attention to performance, security, and user experience.",
+              "ar": "نشر الموقع مع اختبار كامل والانتباه للأداء والأمان وتجربة المستخدم."
+            }
+          },
+          {
+            "step": {
+              "en": "Test",
+              "ar": "الاختبار"
+            },
+            "description": {
+              "en": "Conduct extensive testing across devices and browsers to ensure flawless functionality.",
+              "ar": "إجراء اختبارات شاملة عبر الأجهزة والمتصفحات لضمان وظائف بدون أخطاء."
+            }
+          },
+          {
+            "step": {
+              "en": "Support",
+              "ar": "الدعم"
+            },
+            "description": {
+              "en": "Provide ongoing maintenance and support to keep your website performing optimally.",
+              "ar": "تقديم صيانة ودعم مستمر للحفاظ على أداء موقعك بأفضل شكل."
+            }
+          }
+        ],
+        "whyChooseUs": [
+          {
+            "en": "Local expertise: We understand the Middle Eastern market and culture.",
+            "ar": "الخبرة المحلية: نفهم السوق والثقافة في الشرق الأوسط."
+          },
+          {
+            "en": "Fast delivery: We work efficiently to meet tight deadlines.",
+            "ar": "التسليم السريع: نعمل بكفاءة للوفاء بالمواعيد النهائية."
+          },
+          {
+            "en": "Certified skills: Expertise in WordPress, Shopify, PHP, JavaScript, and more.",
+            "ar": "مهارات معتمدة: خبرة في WordPress و Shopify و PHP و JavaScript والمزيد."
+          },
+          {
+            "en": "Results-oriented: Focus on websites that generate revenue, not just visuals.",
+            "ar": "موجهة نحو النتائج: التركيز على المواقع التي تحقق الإيرادات، وليس مجرد المظهر."
+          },
+          {
+            "en": "Multilingual: Support in Arabic, English, and business-specific language needs.",
+            "ar": "متعددة اللغات: دعم باللغة العربية والإنجليزية واحتياجات اللغة الخاصة بالأعمال."
+          }
+        ],
+        "industrySolutions": [
+          {
+            "en": "E-commerce: Optimized online stores for all product types.",
+            "ar": "التجارة الإلكترونية: متاجر عبر الإنترنت محسّنة لجميع أنواع المنتجات."
+          },
+          {
+            "en": "Real Estate: Advanced property portals for seamless listings and sales.",
+            "ar": "العقارات: بوابات عقارية متقدمة لإدراج ومبيعات سلسة."
+          },
+          {
+            "en": "Healthcare: Reliable, compliant, and secure websites for hospitals and clinics.",
+            "ar": "الرعاية الصحية: مواقع موثوقة ومتوافقة وآمنة للمستشفيات والعيادات."
+          },
+          {
+            "en": "Tourism: Engaging websites to boost bookings and customer interest.",
+            "ar": "السياحة: مواقع جذابة لتعزيز الحجوزات واهتمام العملاء."
+          },
+          {
+            "en": "Finance: Secure, user-friendly solutions for banks, fintech, and investment firms.",
+            "ar": "التمويل: حلول آمنة وسهلة الاستخدام للبنوك والشركات المالية وشركات الاستثمار."
+          }
+        ],
+        "faqs": [
+          {
+            "question": {
+              "en": "How long does it take to develop a website?",
+              "ar": "كم يستغرق تطوير موقع إلكتروني؟"
+            },
+            "answer": {
+              "en": "Timeline varies by complexity. Simple sites take a few weeks, complex e-commerce sites a few months. We work efficiently to meet deadlines.",
+              "ar": "تختلف المدة حسب التعقيد. المواقع البسيطة تستغرق بضعة أسابيع، والمواقع التجارية المعقدة عدة أشهر. نعمل بكفاءة للوفاء بالمواعيد."
+            }
+          },
+          {
+            "question": {
+              "en": "How much does it cost to get custom website development services?",
+              "ar": "كم تكلفة خدمات تطوير المواقع المخصصة؟"
+            },
+            "answer": {
+              "en": "Our pricing reflects quality and value. Websites are an investment that pay for themselves through increased business.",
+              "ar": "تعكس أسعارنا الجودة والقيمة. المواقع هي استثمار يعود بالنفع من خلال زيادة الأعمال."
+            }
+          },
+          {
+            "question": {
+              "en": "Do you offer ecommerce website development services?",
+              "ar": "هل تقدمون خدمات تطوير مواقع التجارة الإلكترونية؟"
+            },
+            "answer": {
+              "en": "Yes. We provide end-to-end e-commerce development and ongoing support to keep your online store running smoothly.",
+              "ar": "نعم. نحن نقدم تطوير تجارة إلكترونية شامل ودعم مستمر للحفاظ على تشغيل متجرك بسلاسة."
+            }
+          },
+          {
+            "question": {
+              "en": "Can you help with SEO?",
+              "ar": "هل يمكنكم المساعدة في تحسين محركات البحث (SEO)؟"
+            },
+            "answer": {
+              "en": "Absolutely. SEO is integrated into the development process to improve visibility and search rankings.",
+              "ar": "بالطبع. تحسين محركات البحث مدمج في عملية التطوير لتحسين الرؤية وتصنيفات البحث."
+            }
+          },
+          {
+            "question": {
+              "en": "Do you develop mobile-responsive websites?",
+              "ar": "هل تطورون مواقع متجاوبة مع الأجهزة المحمولة؟"
+            },
+            "answer": {
+              "en": "Yes. All websites are fully responsive, ensuring seamless performance on all devices.",
+              "ar": "نعم. جميع المواقع متجاوبة بالكامل لضمان أداء سلس على جميع الأجهزة."
+            }
+          }
+        ]
+      },
+      {
+        "id": "websiteDesigning",
+        "service": {
+          "en": "Website Designing",
+          "ar": "تصميم المواقع الإلكترونية"
+        },
+        "description": {
+          "en": "Professional website design services in the Middle East, transforming digital presence into high-converting, revenue-generating platforms.",
+          "ar": "خدمات تصميم المواقع الإلكترونية الاحترافية في الشرق الأوسط، تحويل التواجد الرقمي إلى منصات تحقق تحويلات عالية وتولد الإيرادات."
+        },
+        "marketFocus": {
+          "en": "Middle East",
+          "ar": "الشرق الأوسط"
+        },
+        "contact": {
+          "namePlaceholder": {
+            "en": "Your Name",
+            "ar": "اسمك"
+          },
+          "emailPlaceholder": {
+            "en": "example@email.com",
+            "ar": "البريد الإلكتروني"
+          },
+          "phonePlaceholder": {
+            "en": "Your Contact Number",
+            "ar": "رقم الاتصال الخاص بك"
+          },
+          "messagePlaceholder": {
+            "en": "Your Message Here",
+            "ar": "رسالتك هنا"
+          }
+        },
+        "valueProposition": {
+          "en": "We don't just design websites; we engineer digital experiences that maximize conversions and engage audiences across all devices.",
+          "ar": "نحن لا نصمم المواقع فقط؛ بل نبتكر تجارب رقمية تزيد من التحويلات وتجذب الجمهور عبر جميع الأجهزة."
+        },
+        "designTypes": {
+          "uxUiDesign": {
+            "description": {
+              "en": "Custom UX/UI design solutions tailored for your business, ensuring a visually stunning and user-friendly experience.",
+              "ar": "حلول تصميم UX/UI مخصصة لأعمالك، تضمن تجربة بصرية رائعة وسهلة الاستخدام."
+            }
+          },
+          "interactivePrototyping": {
+            "description": {
+              "en": "Test and visualize your website before development with interactive prototypes, refining usability and design flow.",
+              "ar": "اختبر وقم بتصور موقعك قبل التطوير باستخدام نماذج تفاعلية، لتحسين سهولة الاستخدام وتدفق التصميم."
+            }
+          },
+          "customWebsiteDesign": {
+            "description": {
+              "en": "Unique, branded website designs that leave a lasting impression and drive customer engagement.",
+              "ar": "تصاميم مواقع فريدة ومعبرة عن علامتك التجارية تترك انطباعًا دائمًا وتزيد تفاعل العملاء."
+            }
+          },
+          "websiteRedesign": {
+            "description": {
+              "en": "Transform outdated websites into modern, high-performing digital experiences that convert visitors into customers.",
+              "ar": "تحويل المواقع القديمة إلى تجارب رقمية حديثة وعالية الأداء تحوّل الزوار إلى عملاء."
+            }
+          }
+        },
+        "process": [
+          {
+            "step": {
+              "en": "Listen",
+              "ar": "الاستماع"
+            },
+            "description": {
+              "en": "Understand business goals, target audience, and challenges to create a tailored design strategy.",
+              "ar": "فهم أهداف العمل والجمهور المستهدف والتحديات لإنشاء استراتيجية تصميم مخصصة."
+            }
+          },
+          {
+            "step": {
+              "en": "Plan",
+              "ar": "التخطيط"
+            },
+            "description": {
+              "en": "Strategically plan features, pages, layouts, and user flows to align with business objectives.",
+              "ar": "التخطيط الاستراتيجي للميزات والصفحات والتخطيطات وتدفقات المستخدم لتوافق أهداف العمل."
+            }
+          },
+          {
+            "step": {
+              "en": "Web Design",
+              "ar": "تصميم الموقع"
+            },
+            "description": {
+              "en": "Design teams craft visually stunning, responsive websites with precision and speed.",
+              "ar": "فرق التصميم تصمم مواقع جذابة ومتجاوبة بدقة وسرعة."
+            }
+          },
+          {
+            "step": {
+              "en": "Refine",
+              "ar": "التنقيح"
+            },
+            "description": {
+              "en": "Conduct extensive testing across devices and browsers to ensure flawless design execution.",
+              "ar": "إجراء اختبارات شاملة عبر الأجهزة والمتصفحات لضمان تنفيذ تصميم خالٍ من الأخطاء."
+            }
+          },
+          {
+            "step": {
+              "en": "Deliver",
+              "ar": "التسليم"
+            },
+            "description": {
+              "en": "Launch the website design with full handover, ensuring readiness for user interaction and conversions.",
+              "ar": "إطلاق تصميم الموقع مع تسليم كامل، وضمان جاهزيته لتفاعل المستخدم والتحويلات."
+            }
+          },
+          {
+            "step": {
+              "en": "Support",
+              "ar": "الدعم"
+            },
+            "description": {
+              "en": "Provide ongoing support to maintain performance, updates, and continued optimization.",
+              "ar": "تقديم دعم مستمر للحفاظ على الأداء والتحديثات والتحسين المستمر."
+            }
+          }
+        ],
+        "whyChooseUs": [
+          {
+            "en": "Local expertise: Deep knowledge of the Middle Eastern market and cultural trends.",
+            "ar": "الخبرة المحلية: معرفة عميقة بسوق الشرق الأوسط والاتجاهات الثقافية."
+          },
+          {
+            "en": "Fast delivery: Quick turnaround without compromising quality.",
+            "ar": "التسليم السريع: سرعة في التنفيذ دون المساس بالجودة."
+          },
+          {
+            "en": "Expert designers: Specialized in responsive design, e-commerce platforms, and intuitive UX/UI.",
+            "ar": "مصممون خبراء: متخصصون في التصميم المتجاوب ومنصات التجارة الإلكترونية وتجارب UX/UI البديهية."
+          },
+          {
+            "en": "Results-oriented: Focus on designs that convert visitors into customers.",
+            "ar": "موجهة نحو النتائج: التركيز على التصاميم التي تحول الزوار إلى عملاء."
+          },
+          {
+            "en": "Multilingual: Proficiency in Arabic, English, and business-specific communications.",
+            "ar": "متعدد اللغات: إجادة العربية والإنجليزية والاتصالات الخاصة بالأعمال."
+          }
+        ],
+        "faqs": [
+          {
+            "question": {
+              "en": "How long does it take to design a website?",
+              "ar": "كم يستغرق تصميم موقع إلكتروني؟"
+            },
+            "answer": {
+              "en": "Timeline varies by complexity. Simple designs take a few weeks, while complex e-commerce platforms may take a few months. We work efficiently to meet deadlines.",
+              "ar": "تختلف المدة حسب التعقيد. التصاميم البسيطة تستغرق بضعة أسابيع، بينما قد تستغرق منصات التجارة الإلكترونية المعقدة عدة أشهر. نحن نعمل بكفاءة للوفاء بالمواعيد النهائية."
+            }
+          },
+          {
+            "question": {
+              "en": "How much does it cost to hire a web design agency?",
+              "ar": "كم تكلفة الاستعانة بوكالة تصميم المواقع؟"
+            },
+            "answer": {
+              "en": "Our services are an investment in high-quality, revenue-generating designs. Pricing reflects value and ROI, not just aesthetics.",
+              "ar": "خدماتنا هي استثمار في تصاميم عالية الجودة وتولد الإيرادات. الأسعار تعكس القيمة والعائد على الاستثمار، وليس المظهر فقط."
+            }
+          },
+          {
+            "question": {
+              "en": "Do you offer responsive website design services?",
+              "ar": "هل تقدمون خدمات تصميم مواقع متجاوبة؟"
+            },
+            "answer": {
+              "en": "Yes. Every website we design works flawlessly across all devices, from smartphones to desktops.",
+              "ar": "نعم. كل موقع نصممه يعمل بسلاسة عبر جميع الأجهزة، من الهواتف الذكية إلى أجهزة الكمبيوتر المكتبية."
+            }
+          },
+          {
+            "question": {
+              "en": "Can you help with SEO?",
+              "ar": "هل يمكنكم المساعدة في تحسين محركات البحث (SEO)؟"
+            },
+            "answer": {
+              "en": "Absolutely. SEO is integrated into the website design process to enhance visibility and search engine rankings.",
+              "ar": "بالطبع. تحسين محركات البحث مدمج في عملية تصميم الموقع لتعزيز الرؤية وتصنيفات محركات البحث."
+            }
+          },
+          {
+            "question": {
+              "en": "Do you offer e-commerce website design services?",
+              "ar": "هل تقدمون خدمات تصميم مواقع التجارة الإلكترونية؟"
+            },
+            "answer": {
+              "en": "Yes. We provide comprehensive e-commerce design solutions for seamless performance across all platforms.",
+              "ar": "نعم. نحن نقدم حلول تصميم تجارة إلكترونية شاملة لأداء سلس عبر جميع المنصات."
+            }
+          },
+          {
+            "question": {
+              "en": "Do you provide ongoing support after design completion?",
+              "ar": "هل تقدمون الدعم المستمر بعد اكتمال التصميم؟"
+            },
+            "answer": {
+              "en": "Yes. We offer ongoing website support and development services to ensure your site continues performing optimally.",
+              "ar": "نعم. نحن نقدم خدمات دعم وتطوير مستمرة للموقع لضمان استمرار أدائه بأفضل شكل."
+            }
           }
         ]
       }
-    },
-    {
-      "id": "seo",
-      "service": "Search Engine Optimization",
-      "description": "Emerging Software provides affordable SEO services in the Middle East, focusing on strategies that deliver sustainable results. We dominate SEO by tailoring approaches specifically for the Middle Eastern market.",
-      "marketFocus": "Middle East",
-      "contact": {
-        "namePlaceholder": "Your Name",
-        "emailPlaceholder": "example@email.com",
-        "phonePlaceholder": "Your Contact Number",
-        "messagePlaceholder": "Your Message Here"
-      },
-      "valueProposition": "SEO is the foundation of your online presence. Our services help businesses rank higher in search results, attract more customers, and stay ahead of competition.",
-      "seoServices": {
-        "seoAudit": {
-          "description": "Comprehensive analysis of your website to uncover strengths and weaknesses."
-        },
-        "ecommerceSEO": {
-          "description": "Optimize online stores to rank higher, improve product pages, category listings, site speed, and mobile responsiveness."
-        },
-        "onPageSEO": {
-          "description": "Enhance website structure, content, and tags for both users and search engines."
-        },
-        "technicalSEO": {
-          "description": "Fix site speed, mobile-friendliness, and overall website performance issues."
-        },
-        "localSEO": {
-          "description": "Target location-based searches to attract local customers."
-        }
-      },
-      "seoProcess": [
-        {
-          "step": "Website Audit",
-          "description": "Analyze website structure, broken links, page speed, and other elements affecting ranking."
-        },
-        {
-          "step": "Keyword Research",
-          "description": "Identify high-intent keywords relevant to your business for optimized targeting."
-        },
-        {
-          "step": "Technical and On-Page SEO",
-          "description": "Optimize website structure, content, and technical elements for better visibility and UX."
-        },
-        {
-          "step": "Backlinking and Off-Page Activities",
-          "description": "Build high-quality backlinks through guest posts, social engagement, and local citations."
-        },
-        {
-          "step": "Monitoring and Analysis",
-          "description": "Track website performance using analytics tools to identify trends and opportunities."
-        },
-        {
-          "step": "Reporting",
-          "description": "Provide regular reports including key metrics, milestones, and actionable insights."
-        }
-      ],
-      "benefits": [
-        "Increased Visibility and Traffic: Organic traffic grows steadily without paying per click.",
-        "Builds Trust and Credibility: Positions your brand as an authority in your industry.",
-        "Better User Experience: Improves website usability while enhancing rankings.",
-        "Cost-Effective Marketing: Generates leads and sales with high ROI compared to paid ads.",
-        "Outshine the Competition: Helps you compete effectively against other businesses.",
-        "Drives Local Traffic: Attracts local customers and builds a loyal base."
-      ],
-      "whyChooseUs": {
-        "marketStrategy": "Customized SEO strategies for the Middle Eastern market.",
-        "expertise": "Full coverage from e-commerce SEO to technical SEO.",
-        "provenResults": "Track record of boosting traffic and sales for diverse businesses.",
-        "comprehensiveServices": "End-to-end digital marketing solutions beyond SEO.",
-        "transparentCommunication": "Regular reports and updates for complete transparency.",
-        "longTermPartnership": "Ongoing strategy adjustments to maintain high rankings and relevance."
-      },
-      "faqs": [
-        {
-          "question": "What are affordable SEO services?",
-          "answer": "Cost-effective strategies to improve online visibility, including keyword research, content optimization, backlink building, and technical SEO."
-        },
-        {
-          "question": "How long does it take to see results from SEO?",
-          "answer": "Typically 4 to 6 months for significant results, though some improvements may appear within the first few months."
-        },
-        {
-          "question": "What's the difference between e-commerce SEO services and regular SEO?",
-          "answer": "E-commerce SEO focuses on online stores, optimizing product pages, site speed, and shopping experience. Regular SEO covers broader content and website optimization."
-        },
-        {
-          "question": "Do I need professional SEO services, or can I do it myself?",
-          "answer": "Professional services provide expertise, tools, and strategies for long-term success, including technical SEO, competitor analysis, and algorithm updates."
-        },
-        {
-          "question": "How do you track the success of SEO campaigns?",
-          "answer": "We use tools like Google Analytics, keyword tracking, and backlink analysis, providing regular reports with traffic, rankings, and conversion insights."
-        }
-      ]
-    },
-    {
-      "id": "contentWriting",
-      "service": "Content Writing",
-      "description": "Emerging Software provides professional content writing services in the Middle East, turning websites into customer-generating machines with high-quality, ROI-focused content.",
-      "marketFocus": "Middle East",
-      "contact": {
-        "namePlaceholder": "Your Name",
-        "emailPlaceholder": "example@email.com",
-        "phonePlaceholder": "Your Contact Number",
-        "messagePlaceholder": "Your Message Here"
-      },
-      "valueProposition": "We create addictive, persuasive, and SEO-friendly content that builds trust, attracts customers, and drives sales across all industries.",
-      "typesOfContent": {
-        "blogPosts": {
-          "description": "Addictive content that keeps your audience coming back, perfect for any business with a website."
-        },
-        "seoContent": {
-          "description": "Content that boosts search engine optimization and outranks your competition."
-        },
-        "whitePapers": {
-          "description": "Professional white papers for B2B companies and thought leaders."
-        },
-        "pressReleases": {
-          "description": "Content that informs and creates media buzz around your brand."
-        },
-        "websiteContent": {
-          "description": "Persuasive content for websites that encourages conversions and supports smooth web development."
-        },
-        "productDescriptions": {
-          "description": "Mouthwatering product descriptions for e-commerce businesses and anyone selling products."
-        }
-      },
-      "process": [
-        {
-          "step": "Investigate",
-          "description": "Deep dive into your business, customers, and competitors to understand your market."
-        },
-        {
-          "step": "Strategize",
-          "description": "Craft a content plan with every word designed to maximize ROI."
-        },
-        {
-          "step": "Create",
-          "description": "Develop content that is captivating, engaging, and aligned with your strategy."
-        },
-        {
-          "step": "Refine",
-          "description": "Polish content to ensure clarity, impact, and quality."
-        },
-        {
-          "step": "Deliver",
-          "description": "Provide ready-to-use content for publishing or marketing campaigns."
-        },
-        {
-          "step": "Analyze",
-          "description": "Monitor performance, refine strategies, and continuously improve results."
-        }
-      ],
-      "importanceOfContent": [
-        "24/7 Salesperson: Quality content works for you even while you sleep.",
-        "Reputation Builder: Positions your brand as an expert and market leader.",
-        "SEO Supercharger: Boosts search engine rankings and visibility.",
-        "Customer Magnet: Attracts and retains website visitors.",
-        "Trust Builder: Builds credibility and customer confidence.",
-        "Competitive Edge: Helps you stand out from competitors with cost-effective content."
-      ],
-      "whyChooseUs": {
-        "localExpertise": "Deep understanding of Middle Eastern business and culture.",
-        "speedAndEfficiency": "Deliver content faster than competitors while maintaining strategy.",
-        "marketingExperts": "Content is created by marketing professionals focused on ROI.",
-        "resultsFocused": "Every piece of content is designed to generate revenue, not vanity metrics.",
-        "multiLanguage": "Content delivered in Arabic, English, or the language of profit for maximum impact."
-      },
-      "faqs": [
-        {
-          "question": "How much do your content writing services cost?",
-          "answer": "Costs depend on the type of content. Services are highly valuable and cost-effective, designed to generate revenue."
-        },
-        {
-          "question": "How fast can you deliver content?",
-          "answer": "Most content can be delivered within a few days, with strategy and quality maintained throughout."
-        },
-        {
-          "question": "Do you guarantee results?",
-          "answer": "Yes, we guarantee that our content will make you more money than you spend with us."
-        },
-        {
-          "question": "Will this work for my business?",
-          "answer": "Yes, we have experience across all industries in the Middle East, including B2B, B2C, products, and services."
-        },
-        {
-          "question": "How do you measure success?",
-          "answer": "Success is measured by revenue generated. We also track engagement metrics but prioritize ROI."
-        }
-      ]
-    },
-    {
-      "id": "ppc",
-      "service": "Pay-Per-Click Advertising",
-      "description": "Emerging Software provides results-driven PPC advertising services in the Middle East, helping businesses gain instant visibility, targeted traffic, and higher conversions.",
-      "marketFocus": "Middle East",
-      "contact": {
-        "namePlaceholder": "Your Name",
-        "emailPlaceholder": "example@email.com",
-        "phonePlaceholder": "Your Contact Number",
-        "messagePlaceholder": "Your Message Here"
-      },
-      "valueProposition": "PPC ads deliver instant traffic and measurable results by targeting users actively searching for your products or services. You only pay when someone clicks your ad.",
-      "importance": "PPC ensures your business appears in front of potential customers at the exact moment they are looking for your products, offering immediate visibility and conversions.",
-      "typesOfPPCAds": {
-        "searchAds": {
-          "description": "Intent-driven ads that appear on search engine results pages (SERPs).",
-          "benefit": "Target users actively searching for your products/services.",
-          "idealFor": "Businesses seeking leads, sales, or website traffic."
-        },
-        "displayAds": {
-          "description": "Visually appealing banner ads on websites, blogs, and apps.",
-          "benefit": "Boost brand awareness and stay top-of-mind even without searches.",
-          "idealFor": "Businesses looking for broad visibility and recognition."
-        },
-        "shoppingAds": {
-          "description": "Product-focused ads with image, price, and link for e-commerce.",
-          "benefit": "Show exactly what shoppers are looking for, increasing conversions.",
-          "idealFor": "E-commerce businesses selling products online."
-        },
-        "videoAds": {
-          "description": "Engaging video ads on platforms like YouTube.",
-          "benefit": "Build emotional connections and brand awareness.",
-          "idealFor": "Brands wanting deeper audience engagement."
-        }
-      },
-      "ppcProcess": [
-        {
-          "step": "Keyword Research",
-          "description": "Research high-intent keywords and bid to ensure ads appear for relevant searches."
-        },
-        {
-          "step": "Campaign Setup",
-          "description": "Create ad groups, write compelling copy, set budgets, and select bid strategies."
-        },
-        {
-          "step": "Ad Creation",
-          "description": "Design attention-grabbing ads including text, display banners, and video content."
-        },
-        {
-          "step": "Launch and Monitor",
-          "description": "Constantly monitor performance, adjust bids, test ad copy, and refine targeting."
-        },
-        {
-          "step": "Reporting and Analysis",
-          "description": "Provide detailed reports with metrics like CTR, conversions, and ROAS."
-        }
-      ],
-      "benefits": [
-        "Instant Traffic: Drive visitors immediately after ads go live.",
-        "Highly Targeted Ads: Reach specific audiences by location, age, interests, and device.",
-        "Measurable Results: Track clicks, impressions, conversions, and acquisition cost.",
-        "Cost Control: Set budget and pay only for clicks.",
-        "Boosts Brand Awareness: Even unseen ads increase visibility.",
-        "Flexibility and Scalability: Scale campaigns based on budget and business growth."
-      ],
-      "whyChooseUs": {
-        "expertise": "Deep understanding of Middle Eastern market nuances and online behavior.",
-        "dataDriven": "Analyze data from website performance and competitors to optimize campaigns.",
-        "platformKnowledge": "Google Certified PPC experts managing ads across Google, Facebook, Instagram, LinkedIn, and YouTube.",
-        "customApproach": "Tailored campaigns for businesses of all sizes with a focus on conversions.",
-        "scalableSolutions": "Start small and grow campaigns while maximizing ROI."
-      },
-      "expectations": [
-        "Higher Conversions: Turn clicks into customers.",
-        "Better ROI: Maximize every ad dollar.",
-        "Targeted Traffic: Reach the right audience at the right time.",
-        "Transparency: Regular reports and updates on ad performance."
-      ],
-      "faqs": [
-        {
-          "question": "Why should I use PPC ad management services over organic SEO?",
-          "answer": "PPC provides instant traffic and visibility, ideal for promotions, product launches, or quick results, unlike SEO which takes months."
-        },
-        {
-          "question": "How much does PPC Ads Services cost?",
-          "answer": "Cost depends on keyword competitiveness, platform, and budget. You control your spend and only pay for clicks."
-        },
-        {
-          "question": "How long does it take to see results from PPC ads services?",
-          "answer": "Results are almost immediate, with traffic and conversions possible within hours or days."
-        },
-        {
-          "question": "What platforms can I run PPC ads on?",
-          "answer": "PPC ads can run on Google, Facebook, Instagram, LinkedIn, YouTube, and more. Platform choice depends on campaign goals."
-        },
-        {
-          "question": "What is the difference between Search Ads and Display Ads?",
-          "answer": "Search Ads appear for active searches; Display Ads appear on websites/apps regardless of search intent. Search Ads are better for direct intent, Display Ads for brand awareness."
-        },
-        {
-          "question": "Can I track the success of my PPC campaign?",
-          "answer": "Yes, using metrics like impressions, clicks, CTR, and conversions in real-time."
-        },
-        {
-          "question": "How does Emerging Software manage my PPC campaign?",
-          "answer": "We handle everything from keyword research and ad creation to campaign optimization and reporting, ensuring maximum ROI."
-        }
-      ]
-    },
-    {
-      "id": "socialMedia",
-      "service": "Social Media Management & Marketing",
-      "description": "Emerging Software offers expert social media management and marketing services in the Middle East, helping brands engage audiences, boost visibility, and drive conversions.",
-      "marketFocus": "Middle East",
-      "contact": {
-        "namePlaceholder": "Your Name",
-        "emailPlaceholder": "example@email.com",
-        "phonePlaceholder": "Your Contact Number",
-        "messagePlaceholder": "Your Message Here"
-      },
-      "valueProposition": "We create targeted, culturally-relevant campaigns and manage social media platforms to connect with your audience and deliver measurable results.",
-      "platformsManaged": {
-        "facebook": {
-          "description": "Manage pages, craft posts, engage community, and run targeted ads to build a strong brand presence."
-        },
-        "instagram": {
-          "description": "Optimize business profiles, create engaging visuals and stories, and build a loyal follower base."
-        },
-        "linkedin": {
-          "description": "Build professional company pages, highlight achievements, and establish thought leadership in B2B markets."
-        },
-        "tiktok": {
-          "description": "Create fun, engaging content aligned with trends to increase brand relevance and visibility."
-        },
-        "twitter": {
-          "description": "Craft engaging tweets, build authentic relationships, and drive conversations around your brand."
-        }
-      },
-      "services": {
-        "targetedCampaigns": {
-          "description": "Develop data-driven campaigns using analytics to drive traffic, sales, and brand awareness."
-        },
-        "contentCreationAndPlanning": {
-          "description": "Create content calendars with high-quality, engaging posts aligned with brand voice."
-        },
-        "executionAndEngagement": {
-          "description": "Manage posting, audience interaction, and community engagement to ensure loyal and active followers."
-        }
-      },
-      "process": [
-        {
-          "step": "Discovery & Strategy",
-          "description": "Understand business goals, target audience, and local trends to create a tailored social media strategy."
-        },
-        {
-          "step": "Content Creation & Planning",
-          "description": "Develop engaging posts, visuals, and a content calendar to maintain consistent brand messaging."
-        },
-        {
-          "step": "Execution & Engagement",
-          "description": "Publish content, interact with followers, monitor performance, and optimize engagement."
-        }
-      ],
-      "benefits": [
-        "Boosted Brand Awareness: Increase visibility and recognition across the Middle East.",
-        "Enhanced Customer Engagement: Build relationships and loyalty through active interaction.",
-        "Targeted Marketing Campaigns: Reach ideal customers with tailored campaigns.",
-        "Valuable Insights and Analytics: Make informed decisions using engagement and campaign data.",
-        "Cost-Effective Advertising: Achieve broad reach and results without high costs."
-      ],
-      "whyChooseUs": {
-        "localExpertise": "Deep understanding of Middle Eastern culture, trends, and audience behavior.",
-        "comprehensiveSolutions": "Full-service social media management from consulting to execution.",
-        "tailoredStrategies": "Every plan is customized for your business goals and target market.",
-        "resultsDriven": "Focus on engagement, visibility, and conversions rather than vanity metrics."
-      },
-      "faqs": [
-        {
-          "question": "Why should I use social media management services over organic growth?",
-          "answer": "Professional management ensures strategic content creation, targeted campaigns, and higher engagement that organic efforts alone may not achieve."
-        },
-        {
-          "question": "How much do social media management services cost?",
-          "answer": "Costs depend on platform, content volume, and campaign complexity. Services are designed to be cost-effective while delivering high ROI."
-        },
-        {
-          "question": "How long does it take to see results?",
-          "answer": "Some engagement improvements may appear quickly, but measurable growth typically occurs over a few weeks to months with consistent campaigns."
-        },
-        {
-          "question": "What platforms do you manage?",
-          "answer": "We manage Facebook, Instagram, LinkedIn, TikTok, Twitter, and other relevant social platforms tailored to your audience."
-        },
-        {
-          "question": "Can I track the success of social media campaigns?",
-          "answer": "Yes, we provide detailed analytics on engagement, reach, conversions, and campaign effectiveness."
-        }
-      ]
-    },
-    {
-      "id": "affiliateMarketing",
-      "service": "Affiliate Marketing",
-      "description": "Comprehensive Affiliate Marketing services in the Middle East that help businesses grow revenue through performance-based partnerships with affiliates.",
-      "marketFocus": "Middle East",
-      "contact": {
-        "namePlaceholder": "Your Name",
-        "emailPlaceholder": "example@email.com",
-        "phonePlaceholder": "Your Contact Number",
-        "messagePlaceholder": "Your Message Here"
-      },
-      "valueProposition": "We connect your brand with high-performing affiliates across the Middle East, allowing you to pay only for real sales or leads.",
-      "whyItMatters": [
-        "Performance-based: Only pay when you get sales or leads.",
-        "Scale your reach: Leverage an army of affiliates promoting your brand.",
-        "Local expertise: Campaigns are tailored for the Middle Eastern market.",
-        "Cost-effective growth: Maximize revenue without increasing upfront costs.",
-        "Trust-driven: Recommendations from affiliates convert better than traditional ads."
-      ],
-      "uniqueSellingPoints": [
-        "Deep understanding of Middle Eastern culture and buying habits.",
-        "Track and optimize every click, lead, and sale.",
-        "Network of top-performing affiliates including bloggers, influencers, and email marketers."
-      ],
-      "affiliateTypes": {
-        "contentAffiliateMarketing": {
-          "description": "Integrate products into blogs, product reviews, and how-to guides to drive traffic and conversions."
-        },
-        "socialMediaAffiliateMarketing": {
-          "description": "Leverage real influencers on Instagram, TikTok, and YouTube to reach and convert audiences quickly."
-        },
-        "couponAndDealAffiliateMarketing": {
-          "description": "Offer exclusive discounts and limited-time deals through coupon sites to boost sales and loyalty."
-        },
-        "emailAffiliateMarketing": {
-          "description": "Promote products via targeted email campaigns and newsletters sent by affiliates to their engaged audiences."
-        }
-      },
-      "benefits": [
-        "Grow your business without increasing your marketing budget.",
-        "Stop wasting money on ineffective advertising campaigns.",
-        "Turn trust into sales with affiliate recommendations.",
-        "Achieve broad market reach without additional effort."
-      ],
-      "process": [
-        {
-          "step": "Schedule a Strategy Call",
-          "description": "Discuss your business goals with one of our top affiliate marketing strategists."
-        },
-        {
-          "step": "Custom Strategy Creation",
-          "description": "We create a tailored affiliate marketing plan for your products and target audience in the Middle East."
-        },
-        {
-          "step": "Affiliate Network Activation",
-          "description": "Engage our network of high-performing affiliates to start promoting your brand."
-        },
-        {
-          "step": "Monitoring and Optimization",
-          "description": "Track sales, leads, and campaign performance; continuously refine for maximum ROI."
-        }
-      ],
-      "faqs": [
-        {
-          "question": "What is Affiliate Marketing?",
-          "answer": "Affiliate marketing is a performance-based method that pays commissions to affiliates for promoting your products or services via unique links."
-        },
-        {
-          "question": "How can I avail Affiliate Marketing services?",
-          "answer": "Sign up for our program, and our team will promote your products across various channels using affiliates."
-        },
-        {
-          "question": "Is Affiliate Marketing dead?",
-          "answer": "No, it continues to thrive as businesses increasingly shift online. Affiliate marketing remains an effective revenue-generating strategy."
-        },
-        {
-          "question": "Do I need a website for Affiliate Marketing?",
-          "answer": "A website is helpful but not required. Products can be promoted through social media, email campaigns, and platforms like YouTube."
-        },
-        {
-          "question": "Which products should I pick for Affiliate Marketing?",
-          "answer": "Focus on products that meet the demands of your target audience. High-quality, relevant products convert better and build trust."
-        },
-        {
-          "question": "What is the difference between dropshipping and affiliate marketing?",
-          "answer": "Dropshipping involves selling products directly and managing customer service, while affiliate marketing earns commissions through referrals with no inventory or service responsibility."
-        }
-      ]
-    },
-    {
-      "id": "websiteDevelopment",
-      "service": "Website Development",
-      "description": "Professional website development services in the Middle East, creating high-performance websites that drive leads, sales, and brand growth.",
-      "marketFocus": "Middle East",
-      "contact": {
-        "namePlaceholder": "Your Name",
-        "emailPlaceholder": "example@email.com",
-        "phonePlaceholder": "Your Contact Number",
-        "messagePlaceholder": "Your Message Here"
-      },
-      "valueProposition": "We build money-making websites, not just online pages. Our development services are designed to increase revenue and engagement across all devices.",
-      "developmentTypes": {
-        "customWebDevelopment": {
-          "description": "Tailored websites designed for your business goals with custom features and code for maximum impact."
-        },
-        "wordpressDevelopment": {
-          "description": "Flexible, secure, and fast WordPress websites, optimized to act as your 24/7 digital salesperson."
-        },
-        "shopifyDevelopment": {
-          "description": "E-commerce Shopify stores built for seamless sales and an exceptional shopping experience."
-        },
-        "ecommerceWebDevelopment": {
-          "description": "Comprehensive e-commerce solutions, including WooCommerce or custom platforms, to maximize online sales."
-        }
-      },
-      "process": [
-        {
-          "step": "Plan",
-          "description": "Strategically plan features, pages, layouts, and website design to align with business goals."
-        },
-        {
-          "step": "Listen",
-          "description": "Understand your business objectives, target customers, and challenges to ensure a tailored solution."
-        },
-        {
-          "step": "Build",
-          "description": "Develop high-quality websites efficiently using best practices and modern technologies."
-        },
-        {
-          "step": "Launch",
-          "description": "Deploy the website with full testing and attention to performance, security, and user experience."
-        },
-        {
-          "step": "Test",
-          "description": "Conduct extensive testing across devices and browsers to ensure flawless functionality."
-        },
-        {
-          "step": "Support",
-          "description": "Provide ongoing maintenance and support to keep your website performing optimally."
-        }
-      ],
-      "whyChooseUs": [
-        "Local expertise: We understand the Middle Eastern market and culture.",
-        "Fast delivery: We work efficiently to meet tight deadlines.",
-        "Certified skills: Expertise in WordPress, Shopify, PHP, JavaScript, and more.",
-        "Results-oriented: Focus on websites that generate revenue, not just visuals.",
-        "Multilingual: Support in Arabic, English, and business-specific language needs."
-      ],
-      "industrySolutions": [
-        "E-commerce: Optimized online stores for all product types.",
-        "Real Estate: Advanced property portals for seamless listings and sales.",
-        "Healthcare: Reliable, compliant, and secure websites for hospitals and clinics.",
-        "Tourism: Engaging websites to boost bookings and customer interest.",
-        "Finance: Secure, user-friendly solutions for banks, fintech, and investment firms."
-      ],
-      "faqs": [
-        {
-          "question": "How long does it take to develop a website?",
-          "answer": "Timeline varies by complexity. Simple sites take a few weeks, complex e-commerce sites a few months. We work efficiently to meet deadlines."
-        },
-        {
-          "question": "How much does it cost to get custom website development services?",
-          "answer": "Our pricing reflects quality and value. Websites are an investment that pay for themselves through increased business."
-        },
-        {
-          "question": "Do you offer ecommerce website development services?",
-          "answer": "Yes. We provide end-to-end e-commerce development and ongoing support to keep your online store running smoothly."
-        },
-        {
-          "question": "Can you help with SEO?",
-          "answer": "Absolutely. SEO is integrated into the development process to improve visibility and search rankings."
-        },
-        {
-          "question": "Do you develop mobile-responsive websites?",
-          "answer": "Yes. All websites are fully responsive, ensuring seamless performance on all devices."
-        }
-      ]
-    },
-    {
-      "id": "websiteDesigning",
-      "service": "Website Designing",
-      "description": "Professional website design services in the Middle East, transforming digital presence into high-converting, revenue-generating platforms.",
-      "marketFocus": "Middle East",
-      "contact": {
-        "namePlaceholder": "Your Name",
-        "emailPlaceholder": "example@email.com",
-        "phonePlaceholder": "Your Contact Number",
-        "messagePlaceholder": "Your Message Here"
-      },
-      "valueProposition": "We don't just design websites; we engineer digital experiences that maximize conversions and engage audiences across all devices.",
-      "designTypes": {
-        "uxUiDesign": {
-          "description": "Custom UX/UI design solutions tailored for your business, ensuring a visually stunning and user-friendly experience."
-        },
-        "interactivePrototyping": {
-          "description": "Test and visualize your website before development with interactive prototypes, refining usability and design flow."
-        },
-        "customWebsiteDesign": {
-          "description": "Unique, branded website designs that leave a lasting impression and drive customer engagement."
-        },
-        "websiteRedesign": {
-          "description": "Transform outdated websites into modern, high-performing digital experiences that convert visitors into customers."
-        }
-      },
-      "process": [
-        {
-          "step": "Listen",
-          "description": "Understand business goals, target audience, and challenges to create a tailored design strategy."
-        },
-        {
-          "step": "Plan",
-          "description": "Strategically plan features, pages, layouts, and user flows to align with business objectives."
-        },
-        {
-          "step": "Web Design",
-          "description": "Design teams craft visually stunning, responsive websites with precision and speed."
-        },
-        {
-          "step": "Refine",
-          "description": "Conduct extensive testing across devices and browsers to ensure flawless design execution."
-        },
-        {
-          "step": "Deliver",
-          "description": "Launch the website design with full handover, ensuring readiness for user interaction and conversions."
-        },
-        {
-          "step": "Support",
-          "description": "Provide ongoing support to maintain performance, updates, and continued optimization."
-        }
-      ],
-      "whyChooseUs": [
-        "Local expertise: Deep knowledge of the Middle Eastern market and cultural trends.",
-        "Fast delivery: Quick turnaround without compromising quality.",
-        "Expert designers: Specialized in responsive design, e-commerce platforms, and intuitive UX/UI.",
-        "Results-oriented: Focus on designs that convert visitors into customers.",
-        "Multilingual: Proficiency in Arabic, English, and business-specific communications."
-      ],
-      "faqs": [
-        {
-          "question": "How long does it take to design a website?",
-          "answer": "Timeline varies by complexity. Simple designs take a few weeks, while complex e-commerce platforms may take a few months. We work efficiently to meet deadlines."
-        },
-        {
-          "question": "How much does it cost to hire a web design agency?",
-          "answer": "Our services are an investment in high-quality, revenue-generating designs. Pricing reflects value and ROI, not just aesthetics."
-        },
-        {
-          "question": "Do you offer responsive website design services?",
-          "answer": "Yes. Every website we design works flawlessly across all devices, from smartphones to desktops."
-        },
-        {
-          "question": "Can you help with SEO?",
-          "answer": "Absolutely. SEO is integrated into the website design process to enhance visibility and search engine rankings."
-        },
-        {
-          "question": "Do you offer e-commerce website design services?",
-          "answer": "Yes. We provide comprehensive e-commerce design solutions for seamless performance across all platforms."
-        },
-        {
-          "question": "Do you provide ongoing support after design completion?",
-          "answer": "Yes. We offer ongoing website support and development services to ensure your site continues performing optimally."
-        }
-      ]
-    }
-  ]
-}
+    ]
+  }
+]
